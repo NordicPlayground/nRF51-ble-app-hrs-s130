@@ -12,7 +12,7 @@
  * @brief This example uses ble_app_hrs_c for S120 and ble_app_hrs for S110 to show how the S130 can be used. 
  *        The example works as the following:
  *        The central part of the application can receive heart rate belt data, heart rate value, battery level, 
- *        sensor location, etc, from a *peer peripheral. 
+ *        sensor location, etc, from a peer peripheral*. 
  *        The peripheral part of the application will transmit the heart rate value that the central part of the 
  *        application has received, to a peer central.
  *        Peer peripheral --(hear rate sensor data )--> central --(heart rate value)-- peripheral --(heart rate value)
@@ -24,6 +24,8 @@
  *        --(battery level)--> peer peripheral*
  *        *The peer peripheral will receive the battery level value from the central provided that its 
  *         battery level characteristic is writable.
+ * 
+ *        Note: The S110 part of the application does not implement/support bonding.
  *
  * This file contains the source code for a sample heart rate collector.
  */

@@ -1,6 +1,6 @@
 nRF51-S130-ble_app_hrs
 ======================
-This example shows how S130 application can be set up with the same structure as the SDK examples. The example is built on ble_app_hrs_c (S120), and ble_app_hrs (S110) has been added to the project. The S110 part of the project doesn't use bonding. The functionality of the application is explained in main.c.
+This example shows how a S130 application can be set up with the same structure as the SDK examples. The example is built on ble_app_hrs_c (S120), and ble_app_hrs (S110) has been added to the project. The S110 part of the project doesn't support bonding. The functionality of the application is explained in main.c.
 Requirements
 ------------
 * nRF51 series SDK 6.0 + 

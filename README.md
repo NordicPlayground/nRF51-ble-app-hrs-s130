@@ -1,4 +1,4 @@
-nRF51-S130-ble_app_hrs
+nRF51-ble-app-hrs-s130
 ======================
 This example shows how a S130 application can be set up with the same structure as the SDK examples. The example is built on ble_app_hrs_c (S120), and ble_app_hrs (S110) has been added to the project. The functionality of the application is explained in main.c.
 Requirements

@@ -7,7 +7,8 @@ Requirements
 * S130 0.5.0-1 alpha 
 * nRF51822 Development kit 
   
-The project may need modifications to work with other versions or other boards. To compile it, clone the repository in the \nrf51822\Board\nrf6310\S120 folder. In addition, you should add the header files in a new folder called "s130" in the following folder: ..\nrf51822\Include  
+The project may need modifications to work with other versions or other boards. To compile it, clone the repository in the \nrf51822\Board\nrf6310\S120 folder. 
+In addition, you should **add the S130 header files in a new folder called "s130" in the following folder**: ..\nrf51822\Include  
 
 About this project
 ------------------

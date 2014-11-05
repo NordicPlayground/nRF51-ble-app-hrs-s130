@@ -3,9 +3,9 @@ nRF51-S130-ble_app_hrs
 This example shows how S130 application can be set up with the same structure as the SDK examples. The example is built on ble_app_hrs_c (S120), and ble_app_hrs (S110) has been added to the project. The S110 part of the project doesn't use bonding. The functionality of the application is explained in main.c.
 Requirements
 ------------
-*nRF51 series SDK 6.0 + 
-*S130 0.5.0-1 alpha 
-*nRF51822 Development kit 
+* nRF51 series SDK 6.0 + 
+* S130 0.5.0-1 alpha 
+* nRF51822 Development kit 
 The project may need modifications to work with other versions or other boards. To compile it, clone the repository in the \nrf51822\Board\nrf6310\S120 folder. In addition, you should add the header files in a new folder called "s130" in the following folder: ..\nrf51822\Include  
 About this project
 ------------------

@@ -5,7 +5,7 @@ Requirements
 ------------
 * nRF51 series SDK 6.1.0 
 * S130 0.5.0-1 alpha 
-* nRF51822 Development kit (nRF56310 motherboard + development kit)
+* nRF51822 Development kit (nRF6310 motherboard + development kit)
   
 The project may need modifications to work with other versions or other boards. 
  

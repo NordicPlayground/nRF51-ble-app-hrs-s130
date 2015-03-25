@@ -1,510 +1,0 @@
-Dependencies for Project 'ble_app_hrs_c', Target 'nrf51822_xxaa_s120 (256K)': (DO NOT MODIFY !)
-F (RTE\Device\nRF51822_xxAA\arm_startup_nrf51.s)(0x53B0F0E6)(--cpu Cortex-M0 --li -g --apcs=interwork --pd "__MICROLIB SETA 1"-I C:\Keil\ARM\Device\Nordic\nrf51822\Board\nrf6310\s120\ble_app_hrs_c_s130_sdk6_1_github\arm\RTE-I C:\Keil\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include-I C:\Keil\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\1.1.1\Device\Include--pd "_RTE_ SETA 1" --pd "NRF51 SETA 1"--list .\_build\arm_startup_nrf51.lst --xref -o .\_build\arm_startup_nrf51.o --depend .\_build\arm_startup_nrf51.d)
-F (RTE\Device\nRF51822_xxAA\system_nrf51.c)(0x53B0F0E6)(--c99 -c --cpu Cortex-M0 -D__MICROLIB --li -g -O0 --apcs=interwork -I.. -I..\..\..\..\..\Include -I..\..\..\..\..\Include\app_common -I..\Include_s130\ble -I..\Include_s130\ble\device_manager -I..\Include_s130\ble\ble_services -I..\..\..\..\..\Include\s130 -I..\..\..\..\..\include\boards -I..\..\..\..\..\include\sd_common -I..\..\..\..\..\Include\ext_sensors -I..\..\..\..\..\Include\sdk -I..\inc_s130 -I..\..\..\..\..\Include\ble\ble_services -I..\..\..\..\..\Include\ble-I C:\Keil\ARM\Device\Nordic\nrf51822\Board\nrf6310\s120\ble_app_hrs_c_s130_sdk6_1_github\arm\RTE-I C:\Keil\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include-I C:\Keil\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\1.1.1\Device\Include-D_RTE_ -DNRF51 -DNRF51 -DDEBUG_NRF_USER -DBLE_STACK_SUPPORT_REQD -DBOARD_NRF6310 -DENABLE_DEBUG_LOG_SUPPORT-o .\_build\system_nrf51.o --omf_browse .\_build\system_nrf51.crf --depend .\_build\system_nrf51.d)
-I (C:\Keil\ARM\ARMCC\include\stdint.h)(0x5419E3CA)
-I (C:\Keil\ARM\ARMCC\include\stdbool.h)(0x5419E3CC)
-I (..\..\..\..\..\Include\nrf.h)(0x54007D3C)
-I (..\..\..\..\..\Include\nrf51.h)(0x54007D3C)
-I (C:\Keil\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include\core_cm0.h)(0x53FC782A)
-I (C:\Keil\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include\core_cmInstr.h)(0x53FF38FA)
-I (C:\Keil\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include\core_cmFunc.h)(0x53FF38FA)
-I (..\..\..\..\..\Include\system_nrf51.h)(0x54007D3C)
-I (..\..\..\..\..\Include\nrf51_bitfields.h)(0x54007D3C)
-I (..\..\..\..\..\Include\nrf51_deprecated.h)(0x54007D3C)
-I (..\..\..\..\..\Include\compiler_abstraction.h)(0x54007D3C)
-F (RTE\Device\nRF51822_xxAB\arm_startup_nrf51.s)(0x53B0F0E6)()
-F (RTE\Device\nRF51822_xxAB\system_nrf51.c)(0x53B0F0E6)()
-F (.\..\main.c)(0x5457A7FE)(--c99 -c --cpu Cortex-M0 -D__MICROLIB --li -g -O0 --apcs=interwork -I.. -I..\..\..\..\..\Include -I..\..\..\..\..\Include\app_common -I..\Include_s130\ble -I..\Include_s130\ble\device_manager -I..\Include_s130\ble\ble_services -I..\..\..\..\..\Include\s130 -I..\..\..\..\..\include\boards -I..\..\..\..\..\include\sd_common -I..\..\..\..\..\Include\ext_sensors -I..\..\..\..\..\Include\sdk -I..\inc_s130 -I..\..\..\..\..\Include\ble\ble_services -I..\..\..\..\..\Include\ble-I C:\Keil\ARM\Device\Nordic\nrf51822\Board\nrf6310\s120\ble_app_hrs_c_s130_sdk6_1_github\arm\RTE-I C:\Keil\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include-I C:\Keil\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\1.1.1\Device\Include-D_RTE_ -DNRF51 -DNRF51 -DDEBUG_NRF_USER -DBLE_STACK_SUPPORT_REQD -DBOARD_NRF6310 -DENABLE_DEBUG_LOG_SUPPORT-o .\_build\main.o --omf_browse .\_build\main.crf --depend .\_build\main.d)
-I (C:\Keil\ARM\ARMCC\include\stdint.h)(0x5419E3CA)
-I (C:\Keil\ARM\ARMCC\include\stdio.h)(0x5419E3CC)
-I (C:\Keil\ARM\ARMCC\include\string.h)(0x5419E3CC)
-I (..\..\..\..\..\Include\nordic_common.h)(0x54007D1C)
-I (..\..\..\..\..\Include\s130\nrf_sdm.h)(0x53B3A781)
-I (..\..\..\..\..\Include\s130\nrf_svc.h)(0x53B3A781)
-I (..\..\..\..\..\Include\nrf51.h)(0x54007D3C)
-I (C:\Keil\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include\core_cm0.h)(0x53FC782A)
-I (C:\Keil\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include\core_cmInstr.h)(0x53FF38FA)
-I (C:\Keil\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include\core_cmFunc.h)(0x53FF38FA)
-I (..\..\..\..\..\Include\system_nrf51.h)(0x54007D3C)
-I (..\..\..\..\..\Include\s130\nrf_soc.h)(0x53B3A781)
-I (C:\Keil\ARM\ARMCC\include\stdbool.h)(0x5419E3CC)
-I (..\..\..\..\..\Include\nrf51_bitfields.h)(0x54007D3C)
-I (..\..\..\..\..\Include\s130\nrf_error_soc.h)(0x53B3A781)
-I (..\..\..\..\..\Include\s130\nrf_error.h)(0x53B3A781)
-I (..\..\..\..\..\Include\s130\nrf_error_sdm.h)(0x53B3A781)
-I (..\..\..\..\..\Include\s130\ble.h)(0x53B3A781)
-I (..\..\..\..\..\Include\s130\ble_ranges.h)(0x53B3A781)
-I (..\..\..\..\..\Include\s130\ble_types.h)(0x53B3A781)
-I (..\..\..\..\..\Include\s130\ble_gap.h)(0x5449F257)
-I (..\..\..\..\..\Include\s130\ble_l2cap.h)(0x53B3A781)
-I (..\..\..\..\..\Include\s130\ble_err.h)(0x53B3A781)
-I (..\..\..\..\..\Include\s130\ble_gatt.h)(0x53B3A781)
-I (..\..\..\..\..\Include\s130\ble_gattc.h)(0x53B3A781)
-I (..\..\..\..\..\Include\s130\ble_gatts.h)(0x53B3A781)
-I (..\Include_s130\ble\ble_db_discovery_s130.h)(0x544A1A20)
-I (..\..\..\..\..\Include\ble\ble_services\ble_srv_common.h)(0x54007D1C)
-I (..\..\..\..\..\Include\app_common\app_util.h)(0x54007D1C)
-I (..\..\..\..\..\Include\compiler_abstraction.h)(0x54007D3C)
-I (..\..\..\..\..\include\sd_common\softdevice_handler.h)(0x54007D1C)
-I (C:\Keil\ARM\ARMCC\include\stdlib.h)(0x5419E3CC)
-I (..\..\..\..\..\Include\app_common\app_error.h)(0x54007D1C)
-I (..\..\..\..\..\Include\app_common\app_scheduler.h)(0x54007D1C)
-I (..\..\..\..\..\include\sd_common\ble_stack_handler_types.h)(0x54007D1C)
-I (..\..\..\..\..\include\sd_common\ant_stack_handler_types.h)(0x54007D1C)
-I (..\..\..\..\..\Include\ble\ble_advdata_parser.h)(0x54007D1C)
-I (..\..\..\..\..\Include\ble\ble_advdata.h)(0x54007D1C)
-I (..\..\..\..\..\Include\boards.h)(0x54007D1C)
-I (..\..\..\..\..\Include\boards/nrf6310.h)(0x54007D1C)
-I (..\..\..\..\..\Include\nrf_gpio.h)(0x54007D1C)
-I (..\..\..\..\..\Include\ext_sensors\nrf6350.h)(0x54007D1C)
-I (..\..\..\..\..\Include\app_common\pstorage.h)(0x54007D1C)
-I (..\pstorage_platform.h)(0x54007D1C)
-I (..\Include_s130\ble\device_manager\device_manager_s130.h)(0x544A193D)
-I (..\..\..\..\..\Include\sdk\sdk_common.h)(0x54007D1C)
-I (..\..\..\..\..\Include\sdk\sdk_os.h)(0x54007D1C)
-I (..\..\..\..\..\Include\sdk\sdk_errors.h)(0x54007D1C)
-I (..\device_manager_cnfg.h)(0x54007D1C)
-I (..\..\..\..\..\Include\app_common\app_trace.h)(0x54007D1C)
-I (..\..\..\..\..\Include\ble\ble_services\ble_hrs_c.h)(0x54007D1C)
-I (..\..\..\..\..\Include\ble\ble_services\ble_bas_c.h)(0x54007D1C)
-I (..\Include_s130\ble\ble_services\ble_bas_s130.h)(0x544A1012)
-I (..\Include_s130\ble\ble_services\ble_hrs_s130.h)(0x544A0F6B)
-I (..\..\..\..\..\Include\ble\ble_services\ble_dis.h)(0x54007D1C)
-I (..\..\..\..\..\Include\ble\ble_sensorsim.h)(0x54007D1C)
-I (..\..\..\..\..\Include\app_common\app_timer.h)(0x54007D1C)
-I (..\Include_s130\ble\ble_conn_params_s130.h)(0x544A1B90)
-I (..\..\..\..\..\Include\s130\ble_hci.h)(0x53B3A781)
-I (..\..\..\..\..\Include\nrf_delay.h)(0x54007D1C)
-I (..\..\..\..\..\Include\nrf.h)(0x54007D3C)
-I (..\..\..\..\..\Include\nrf51_deprecated.h)(0x54007D3C)
-F (..\Source_s130\ble\ble_services\ble_hrs_c.c)(0x5457A775)(--c99 -c --cpu Cortex-M0 -D__MICROLIB --li -g -O0 --apcs=interwork -I.. -I..\..\..\..\..\Include -I..\..\..\..\..\Include\app_common -I..\Include_s130\ble -I..\Include_s130\ble\device_manager -I..\Include_s130\ble\ble_services -I..\..\..\..\..\Include\s130 -I..\..\..\..\..\include\boards -I..\..\..\..\..\include\sd_common -I..\..\..\..\..\Include\ext_sensors -I..\..\..\..\..\Include\sdk -I..\inc_s130 -I..\..\..\..\..\Include\ble\ble_services -I..\..\..\..\..\Include\ble-I C:\Keil\ARM\Device\Nordic\nrf51822\Board\nrf6310\s120\ble_app_hrs_c_s130_sdk6_1_github\arm\RTE-I C:\Keil\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include-I C:\Keil\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\1.1.1\Device\Include-D_RTE_ -DNRF51 -DNRF51 -DDEBUG_NRF_USER -DBLE_STACK_SUPPORT_REQD -DBOARD_NRF6310 -DENABLE_DEBUG_LOG_SUPPORT-o .\_build\ble_hrs_c.o --omf_browse .\_build\ble_hrs_c.crf --depend .\_build\ble_hrs_c.d)
-I (C:\Keil\ARM\ARMCC\include\stdint.h)(0x5419E3CA)
-I (..\..\..\..\..\Include\ble\ble_services\ble_hrs_c.h)(0x54007D1C)
-I (..\..\..\..\..\Include\s130\ble.h)(0x53B3A781)
-I (..\..\..\..\..\Include\s130\ble_ranges.h)(0x53B3A781)
-I (..\..\..\..\..\Include\s130\ble_types.h)(0x53B3A781)
-I (..\..\..\..\..\Include\s130\ble_gap.h)(0x5449F257)
-I (..\..\..\..\..\Include\s130\nrf_svc.h)(0x53B3A781)
-I (..\..\..\..\..\Include\s130\ble_l2cap.h)(0x53B3A781)
-I (..\..\..\..\..\Include\s130\ble_err.h)(0x53B3A781)
-I (..\..\..\..\..\Include\s130\nrf_error.h)(0x53B3A781)
-I (..\..\..\..\..\Include\s130\ble_gatt.h)(0x53B3A781)
-I (..\..\..\..\..\Include\s130\ble_gattc.h)(0x53B3A781)
-I (..\..\..\..\..\Include\s130\ble_gatts.h)(0x53B3A781)
-I (..\Include_s130\ble\ble_db_discovery_s130.h)(0x544A1A20)
-I (..\..\..\..\..\Include\ble\ble_services\ble_srv_common.h)(0x54007D1C)
-I (C:\Keil\ARM\ARMCC\include\stdbool.h)(0x5419E3CC)
-I (..\..\..\..\..\Include\app_common\app_util.h)(0x54007D1C)
-I (..\..\..\..\..\Include\compiler_abstraction.h)(0x54007D3C)
-I (..\..\..\..\..\Include\nordic_common.h)(0x54007D1C)
-I (..\..\..\..\..\Include\app_common\app_trace.h)(0x54007D1C)
-I (C:\Keil\ARM\ARMCC\include\stdio.h)(0x5419E3CC)
-F (..\Source_s130\ble\ble_services\ble_bas_c.c)(0x5457A775)(--c99 -c --cpu Cortex-M0 -D__MICROLIB --li -g -O0 --apcs=interwork -I.. -I..\..\..\..\..\Include -I..\..\..\..\..\Include\app_common -I..\Include_s130\ble -I..\Include_s130\ble\device_manager -I..\Include_s130\ble\ble_services -I..\..\..\..\..\Include\s130 -I..\..\..\..\..\include\boards -I..\..\..\..\..\include\sd_common -I..\..\..\..\..\Include\ext_sensors -I..\..\..\..\..\Include\sdk -I..\inc_s130 -I..\..\..\..\..\Include\ble\ble_services -I..\..\..\..\..\Include\ble-I C:\Keil\ARM\Device\Nordic\nrf51822\Board\nrf6310\s120\ble_app_hrs_c_s130_sdk6_1_github\arm\RTE-I C:\Keil\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include-I C:\Keil\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\1.1.1\Device\Include-D_RTE_ -DNRF51 -DNRF51 -DDEBUG_NRF_USER -DBLE_STACK_SUPPORT_REQD -DBOARD_NRF6310 -DENABLE_DEBUG_LOG_SUPPORT-o .\_build\ble_bas_c.o --omf_browse .\_build\ble_bas_c.crf --depend .\_build\ble_bas_c.d)
-I (..\..\..\..\..\Include\ble\ble_services\ble_bas_c.h)(0x54007D1C)
-I (C:\Keil\ARM\ARMCC\include\stdint.h)(0x5419E3CA)
-I (..\..\..\..\..\Include\s130\ble.h)(0x53B3A781)
-I (..\..\..\..\..\Include\s130\ble_ranges.h)(0x53B3A781)
-I (..\..\..\..\..\Include\s130\ble_types.h)(0x53B3A781)
-I (..\..\..\..\..\Include\s130\ble_gap.h)(0x5449F257)
-I (..\..\..\..\..\Include\s130\nrf_svc.h)(0x53B3A781)
-I (..\..\..\..\..\Include\s130\ble_l2cap.h)(0x53B3A781)
-I (..\..\..\..\..\Include\s130\ble_err.h)(0x53B3A781)
-I (..\..\..\..\..\Include\s130\nrf_error.h)(0x53B3A781)
-I (..\..\..\..\..\Include\s130\ble_gatt.h)(0x53B3A781)
-I (..\..\..\..\..\Include\s130\ble_gattc.h)(0x53B3A781)
-I (..\..\..\..\..\Include\s130\ble_gatts.h)(0x53B3A781)
-I (..\Include_s130\ble\ble_db_discovery_s130.h)(0x544A1A20)
-I (..\..\..\..\..\Include\ble\ble_services\ble_srv_common.h)(0x54007D1C)
-I (C:\Keil\ARM\ARMCC\include\stdbool.h)(0x5419E3CC)
-I (..\..\..\..\..\Include\app_common\app_util.h)(0x54007D1C)
-I (..\..\..\..\..\Include\compiler_abstraction.h)(0x54007D3C)
-I (..\..\..\..\..\Include\nordic_common.h)(0x54007D1C)
-I (..\..\..\..\..\Include\app_common\app_trace.h)(0x54007D1C)
-I (C:\Keil\ARM\ARMCC\include\stdio.h)(0x5419E3CC)
-F (..\Source_s130\ble\ble_services\ble_bas.c)(0x5457A7FE)(--c99 -c --cpu Cortex-M0 -D__MICROLIB --li -g -O0 --apcs=interwork -I.. -I..\..\..\..\..\Include -I..\..\..\..\..\Include\app_common -I..\Include_s130\ble -I..\Include_s130\ble\device_manager -I..\Include_s130\ble\ble_services -I..\..\..\..\..\Include\s130 -I..\..\..\..\..\include\boards -I..\..\..\..\..\include\sd_common -I..\..\..\..\..\Include\ext_sensors -I..\..\..\..\..\Include\sdk -I..\inc_s130 -I..\..\..\..\..\Include\ble\ble_services -I..\..\..\..\..\Include\ble-I C:\Keil\ARM\Device\Nordic\nrf51822\Board\nrf6310\s120\ble_app_hrs_c_s130_sdk6_1_github\arm\RTE-I C:\Keil\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include-I C:\Keil\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\1.1.1\Device\Include-D_RTE_ -DNRF51 -DNRF51 -DDEBUG_NRF_USER -DBLE_STACK_SUPPORT_REQD -DBOARD_NRF6310 -DENABLE_DEBUG_LOG_SUPPORT-o .\_build\ble_bas.o --omf_browse .\_build\ble_bas.crf --depend .\_build\ble_bas.d)
-I (..\Include_s130\ble\ble_services\ble_bas_s130.h)(0x544A1012)
-I (C:\Keil\ARM\ARMCC\include\stdint.h)(0x5419E3CA)
-I (C:\Keil\ARM\ARMCC\include\stdbool.h)(0x5419E3CC)
-I (..\..\..\..\..\Include\s130\ble.h)(0x53B3A781)
-I (..\..\..\..\..\Include\s130\ble_ranges.h)(0x53B3A781)
-I (..\..\..\..\..\Include\s130\ble_types.h)(0x53B3A781)
-I (..\..\..\..\..\Include\s130\ble_gap.h)(0x5449F257)
-I (..\..\..\..\..\Include\s130\nrf_svc.h)(0x53B3A781)
-I (..\..\..\..\..\Include\s130\ble_l2cap.h)(0x53B3A781)
-I (..\..\..\..\..\Include\s130\ble_err.h)(0x53B3A781)
-I (..\..\..\..\..\Include\s130\nrf_error.h)(0x53B3A781)
-I (..\..\..\..\..\Include\s130\ble_gatt.h)(0x53B3A781)
-I (..\..\..\..\..\Include\s130\ble_gattc.h)(0x53B3A781)
-I (..\..\..\..\..\Include\s130\ble_gatts.h)(0x53B3A781)
-I (..\..\..\..\..\Include\ble\ble_services\ble_srv_common.h)(0x54007D1C)
-I (..\..\..\..\..\Include\app_common\app_util.h)(0x54007D1C)
-I (..\..\..\..\..\Include\compiler_abstraction.h)(0x54007D3C)
-I (C:\Keil\ARM\ARMCC\include\string.h)(0x5419E3CC)
-I (..\..\..\..\..\Include\nordic_common.h)(0x54007D1C)
-F (..\Source_s130\ble\ble_services\ble_dis.c)(0x54007D1C)(--c99 -c --cpu Cortex-M0 -D__MICROLIB --li -g -O0 --apcs=interwork -I.. -I..\..\..\..\..\Include -I..\..\..\..\..\Include\app_common -I..\Include_s130\ble -I..\Include_s130\ble\device_manager -I..\Include_s130\ble\ble_services -I..\..\..\..\..\Include\s130 -I..\..\..\..\..\include\boards -I..\..\..\..\..\include\sd_common -I..\..\..\..\..\Include\ext_sensors -I..\..\..\..\..\Include\sdk -I..\inc_s130 -I..\..\..\..\..\Include\ble\ble_services -I..\..\..\..\..\Include\ble-I C:\Keil\ARM\Device\Nordic\nrf51822\Board\nrf6310\s120\ble_app_hrs_c_s130_sdk6_1_github\arm\RTE-I C:\Keil\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include-I C:\Keil\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\1.1.1\Device\Include-D_RTE_ -DNRF51 -DNRF51 -DDEBUG_NRF_USER -DBLE_STACK_SUPPORT_REQD -DBOARD_NRF6310 -DENABLE_DEBUG_LOG_SUPPORT-o .\_build\ble_dis.o --omf_browse .\_build\ble_dis.crf --depend .\_build\ble_dis.d)
-I (..\..\..\..\..\Include\ble\ble_services\ble_dis.h)(0x54007D1C)
-I (C:\Keil\ARM\ARMCC\include\stdint.h)(0x5419E3CA)
-I (..\..\..\..\..\Include\ble\ble_services\ble_srv_common.h)(0x54007D1C)
-I (C:\Keil\ARM\ARMCC\include\stdbool.h)(0x5419E3CC)
-I (..\..\..\..\..\Include\s130\ble_types.h)(0x53B3A781)
-I (..\..\..\..\..\Include\app_common\app_util.h)(0x54007D1C)
-I (..\..\..\..\..\Include\compiler_abstraction.h)(0x54007D3C)
-I (..\..\..\..\..\Include\s130\ble_gap.h)(0x5449F257)
-I (..\..\..\..\..\Include\s130\ble_ranges.h)(0x53B3A781)
-I (..\..\..\..\..\Include\s130\nrf_svc.h)(0x53B3A781)
-I (..\..\..\..\..\Include\s130\ble_gatt.h)(0x53B3A781)
-I (C:\Keil\ARM\ARMCC\include\stdlib.h)(0x5419E3CC)
-I (C:\Keil\ARM\ARMCC\include\string.h)(0x5419E3CC)
-I (..\..\..\..\..\Include\app_common\app_error.h)(0x54007D1C)
-I (..\..\..\..\..\Include\s130\nrf_error.h)(0x53B3A781)
-I (..\..\..\..\..\Include\s130\ble_gatts.h)(0x53B3A781)
-I (..\..\..\..\..\Include\s130\ble_l2cap.h)(0x53B3A781)
-I (..\..\..\..\..\Include\s130\ble_err.h)(0x53B3A781)
-I (..\..\..\..\..\Include\nordic_common.h)(0x54007D1C)
-F (..\Source_s130\ble\ble_services\ble_hrs.c)(0x5457A7FE)(--c99 -c --cpu Cortex-M0 -D__MICROLIB --li -g -O0 --apcs=interwork -I.. -I..\..\..\..\..\Include -I..\..\..\..\..\Include\app_common -I..\Include_s130\ble -I..\Include_s130\ble\device_manager -I..\Include_s130\ble\ble_services -I..\..\..\..\..\Include\s130 -I..\..\..\..\..\include\boards -I..\..\..\..\..\include\sd_common -I..\..\..\..\..\Include\ext_sensors -I..\..\..\..\..\Include\sdk -I..\inc_s130 -I..\..\..\..\..\Include\ble\ble_services -I..\..\..\..\..\Include\ble-I C:\Keil\ARM\Device\Nordic\nrf51822\Board\nrf6310\s120\ble_app_hrs_c_s130_sdk6_1_github\arm\RTE-I C:\Keil\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include-I C:\Keil\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\1.1.1\Device\Include-D_RTE_ -DNRF51 -DNRF51 -DDEBUG_NRF_USER -DBLE_STACK_SUPPORT_REQD -DBOARD_NRF6310 -DENABLE_DEBUG_LOG_SUPPORT-o .\_build\ble_hrs.o --omf_browse .\_build\ble_hrs.crf --depend .\_build\ble_hrs.d)
-I (..\Include_s130\ble\ble_services\ble_hrs_s130.h)(0x544A0F6B)
-I (C:\Keil\ARM\ARMCC\include\stdint.h)(0x5419E3CA)
-I (C:\Keil\ARM\ARMCC\include\stdbool.h)(0x5419E3CC)
-I (..\..\..\..\..\Include\s130\ble.h)(0x53B3A781)
-I (..\..\..\..\..\Include\s130\ble_ranges.h)(0x53B3A781)
-I (..\..\..\..\..\Include\s130\ble_types.h)(0x53B3A781)
-I (..\..\..\..\..\Include\s130\ble_gap.h)(0x5449F257)
-I (..\..\..\..\..\Include\s130\nrf_svc.h)(0x53B3A781)
-I (..\..\..\..\..\Include\s130\ble_l2cap.h)(0x53B3A781)
-I (..\..\..\..\..\Include\s130\ble_err.h)(0x53B3A781)
-I (..\..\..\..\..\Include\s130\nrf_error.h)(0x53B3A781)
-I (..\..\..\..\..\Include\s130\ble_gatt.h)(0x53B3A781)
-I (..\..\..\..\..\Include\s130\ble_gattc.h)(0x53B3A781)
-I (..\..\..\..\..\Include\s130\ble_gatts.h)(0x53B3A781)
-I (..\..\..\..\..\Include\ble\ble_services\ble_srv_common.h)(0x54007D1C)
-I (..\..\..\..\..\Include\app_common\app_util.h)(0x54007D1C)
-I (..\..\..\..\..\Include\compiler_abstraction.h)(0x54007D3C)
-I (C:\Keil\ARM\ARMCC\include\string.h)(0x5419E3CC)
-I (..\..\..\..\..\Include\nordic_common.h)(0x54007D1C)
-F (..\..\..\..\..\Source\ble\ble_debug_assert_handler.c)(0x54007D1C)(--c99 -c --cpu Cortex-M0 -D__MICROLIB --li -g -O0 --apcs=interwork -I.. -I..\..\..\..\..\Include -I..\..\..\..\..\Include\app_common -I..\Include_s130\ble -I..\Include_s130\ble\device_manager -I..\Include_s130\ble\ble_services -I..\..\..\..\..\Include\s130 -I..\..\..\..\..\include\boards -I..\..\..\..\..\include\sd_common -I..\..\..\..\..\Include\ext_sensors -I..\..\..\..\..\Include\sdk -I..\inc_s130 -I..\..\..\..\..\Include\ble\ble_services -I..\..\..\..\..\Include\ble-I C:\Keil\ARM\Device\Nordic\nrf51822\Board\nrf6310\s120\ble_app_hrs_c_s130_sdk6_1_github\arm\RTE-I C:\Keil\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include-I C:\Keil\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\1.1.1\Device\Include-D_RTE_ -DNRF51 -DNRF51 -DDEBUG_NRF_USER -DBLE_STACK_SUPPORT_REQD -DBOARD_NRF6310 -DENABLE_DEBUG_LOG_SUPPORT-o .\_build\ble_debug_assert_handler.o --omf_browse .\_build\ble_debug_assert_handler.crf --depend .\_build\ble_debug_assert_handler.d)
-I (..\..\..\..\..\Include\ble\ble_debug_assert_handler.h)(0x54007D1C)
-I (C:\Keil\ARM\ARMCC\include\stdint.h)(0x5419E3CA)
-I (C:\Keil\ARM\ARMCC\include\string.h)(0x5419E3CC)
-I (..\..\..\..\..\Include\nrf51.h)(0x54007D3C)
-I (C:\Keil\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include\core_cm0.h)(0x53FC782A)
-I (C:\Keil\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include\core_cmInstr.h)(0x53FF38FA)
-I (C:\Keil\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include\core_cmFunc.h)(0x53FF38FA)
-I (..\..\..\..\..\Include\system_nrf51.h)(0x54007D3C)
-I (..\..\..\..\..\Include\ble\ble_error_log.h)(0x54007D1C)
-I (C:\Keil\ARM\ARMCC\include\stdbool.h)(0x5419E3CC)
-I (..\..\..\..\..\Include\ble\ble_flash.h)(0x54007D1C)
-I (..\..\..\..\..\Include\nordic_common.h)(0x54007D1C)
-F (..\..\..\..\..\Source\app_common\app_trace.c)(0x54007D1C)(--c99 -c --cpu Cortex-M0 -D__MICROLIB --li -g -O0 --apcs=interwork -I.. -I..\..\..\..\..\Include -I..\..\..\..\..\Include\app_common -I..\Include_s130\ble -I..\Include_s130\ble\device_manager -I..\Include_s130\ble\ble_services -I..\..\..\..\..\Include\s130 -I..\..\..\..\..\include\boards -I..\..\..\..\..\include\sd_common -I..\..\..\..\..\Include\ext_sensors -I..\..\..\..\..\Include\sdk -I..\inc_s130 -I..\..\..\..\..\Include\ble\ble_services -I..\..\..\..\..\Include\ble-I C:\Keil\ARM\Device\Nordic\nrf51822\Board\nrf6310\s120\ble_app_hrs_c_s130_sdk6_1_github\arm\RTE-I C:\Keil\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include-I C:\Keil\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\1.1.1\Device\Include-D_RTE_ -DNRF51 -DNRF51 -DDEBUG_NRF_USER -DBLE_STACK_SUPPORT_REQD -DBOARD_NRF6310 -DENABLE_DEBUG_LOG_SUPPORT-o .\_build\app_trace.o --omf_browse .\_build\app_trace.crf --depend .\_build\app_trace.d)
-I (C:\Keil\ARM\ARMCC\include\stdio.h)(0x5419E3CC)
-I (C:\Keil\ARM\ARMCC\include\stdint.h)(0x5419E3CA)
-I (C:\Keil\ARM\ARMCC\include\string.h)(0x5419E3CC)
-I (C:\Keil\ARM\ARMCC\include\stdarg.h)(0x5419E3CC)
-I (..\..\..\..\..\Include\app_common\app_uart.h)(0x54007D1C)
-I (C:\Keil\ARM\ARMCC\include\stdbool.h)(0x5419E3CC)
-I (..\..\..\..\..\include\sd_common\app_util_platform.h)(0x54007D1C)
-I (..\..\..\..\..\Include\compiler_abstraction.h)(0x54007D3C)
-I (..\..\..\..\..\Include\nrf51.h)(0x54007D3C)
-I (C:\Keil\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include\core_cm0.h)(0x53FC782A)
-I (C:\Keil\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include\core_cmInstr.h)(0x53FF38FA)
-I (C:\Keil\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include\core_cmFunc.h)(0x53FF38FA)
-I (..\..\..\..\..\Include\system_nrf51.h)(0x54007D3C)
-I (..\..\..\..\..\Include\app_common\app_error.h)(0x54007D1C)
-I (..\..\..\..\..\Include\s130\nrf_error.h)(0x53B3A781)
-I (..\..\..\..\..\Include\simple_uart.h)(0x54007D1C)
-I (..\..\..\..\..\Include\app_common\app_gpiote.h)(0x54007D1C)
-I (..\..\..\..\..\Include\nrf.h)(0x54007D3C)
-I (..\..\..\..\..\Include\nrf51_bitfields.h)(0x54007D3C)
-I (..\..\..\..\..\Include\nrf51_deprecated.h)(0x54007D3C)
-I (..\..\..\..\..\Include\app_common\app_util.h)(0x54007D1C)
-I (..\..\..\..\..\Include\nordic_common.h)(0x54007D1C)
-I (..\..\..\..\..\Include\boards.h)(0x54007D1C)
-I (..\..\..\..\..\Include\boards/nrf6310.h)(0x54007D1C)
-I (..\..\..\..\..\Include\nrf_gpio.h)(0x54007D1C)
-I (..\..\..\..\..\Include\app_common\app_trace.h)(0x54007D1C)
-F (..\..\..\..\..\Source\simple_uart\simple_uart.c)(0x54007D1E)(--c99 -c --cpu Cortex-M0 -D__MICROLIB --li -g -O0 --apcs=interwork -I.. -I..\..\..\..\..\Include -I..\..\..\..\..\Include\app_common -I..\Include_s130\ble -I..\Include_s130\ble\device_manager -I..\Include_s130\ble\ble_services -I..\..\..\..\..\Include\s130 -I..\..\..\..\..\include\boards -I..\..\..\..\..\include\sd_common -I..\..\..\..\..\Include\ext_sensors -I..\..\..\..\..\Include\sdk -I..\inc_s130 -I..\..\..\..\..\Include\ble\ble_services -I..\..\..\..\..\Include\ble-I C:\Keil\ARM\Device\Nordic\nrf51822\Board\nrf6310\s120\ble_app_hrs_c_s130_sdk6_1_github\arm\RTE-I C:\Keil\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include-I C:\Keil\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\1.1.1\Device\Include-D_RTE_ -DNRF51 -DNRF51 -DDEBUG_NRF_USER -DBLE_STACK_SUPPORT_REQD -DBOARD_NRF6310 -DENABLE_DEBUG_LOG_SUPPORT-o .\_build\simple_uart.o --omf_browse .\_build\simple_uart.crf --depend .\_build\simple_uart.d)
-I (C:\Keil\ARM\ARMCC\include\stdint.h)(0x5419E3CA)
-I (..\..\..\..\..\Include\nrf.h)(0x54007D3C)
-I (..\..\..\..\..\Include\nrf51.h)(0x54007D3C)
-I (C:\Keil\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include\core_cm0.h)(0x53FC782A)
-I (C:\Keil\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include\core_cmInstr.h)(0x53FF38FA)
-I (C:\Keil\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include\core_cmFunc.h)(0x53FF38FA)
-I (..\..\..\..\..\Include\system_nrf51.h)(0x54007D3C)
-I (..\..\..\..\..\Include\nrf51_bitfields.h)(0x54007D3C)
-I (..\..\..\..\..\Include\nrf51_deprecated.h)(0x54007D3C)
-I (..\..\..\..\..\Include\compiler_abstraction.h)(0x54007D3C)
-I (..\..\..\..\..\Include\simple_uart.h)(0x54007D1C)
-I (C:\Keil\ARM\ARMCC\include\stdbool.h)(0x5419E3CC)
-I (..\..\..\..\..\Include\nrf_delay.h)(0x54007D1C)
-I (..\..\..\..\..\Include\nrf_gpio.h)(0x54007D1C)
-F (..\Source_s130\ble\ble_db_discovery.c)(0x5457A775)(--c99 -c --cpu Cortex-M0 -D__MICROLIB --li -g -O0 --apcs=interwork -I.. -I..\..\..\..\..\Include -I..\..\..\..\..\Include\app_common -I..\Include_s130\ble -I..\Include_s130\ble\device_manager -I..\Include_s130\ble\ble_services -I..\..\..\..\..\Include\s130 -I..\..\..\..\..\include\boards -I..\..\..\..\..\include\sd_common -I..\..\..\..\..\Include\ext_sensors -I..\..\..\..\..\Include\sdk -I..\inc_s130 -I..\..\..\..\..\Include\ble\ble_services -I..\..\..\..\..\Include\ble-I C:\Keil\ARM\Device\Nordic\nrf51822\Board\nrf6310\s120\ble_app_hrs_c_s130_sdk6_1_github\arm\RTE-I C:\Keil\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include-I C:\Keil\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\1.1.1\Device\Include-D_RTE_ -DNRF51 -DNRF51 -DDEBUG_NRF_USER -DBLE_STACK_SUPPORT_REQD -DBOARD_NRF6310 -DENABLE_DEBUG_LOG_SUPPORT-o .\_build\ble_db_discovery.o --omf_browse .\_build\ble_db_discovery.crf --depend .\_build\ble_db_discovery.d)
-I (..\Include_s130\ble\ble_db_discovery_s130.h)(0x544A1A20)
-I (C:\Keil\ARM\ARMCC\include\stdint.h)(0x5419E3CA)
-I (..\..\..\..\..\Include\s130\ble_gattc.h)(0x53B3A781)
-I (..\..\..\..\..\Include\s130\ble_gatt.h)(0x53B3A781)
-I (..\..\..\..\..\Include\s130\ble_types.h)(0x53B3A781)
-I (..\..\..\..\..\Include\s130\ble_ranges.h)(0x53B3A781)
-I (..\..\..\..\..\Include\s130\nrf_svc.h)(0x53B3A781)
-I (..\..\..\..\..\Include\s130\ble.h)(0x53B3A781)
-I (..\..\..\..\..\Include\s130\ble_gap.h)(0x5449F257)
-I (..\..\..\..\..\Include\s130\ble_l2cap.h)(0x53B3A781)
-I (..\..\..\..\..\Include\s130\ble_err.h)(0x53B3A781)
-I (..\..\..\..\..\Include\s130\nrf_error.h)(0x53B3A781)
-I (..\..\..\..\..\Include\s130\ble_gatts.h)(0x53B3A781)
-I (..\..\..\..\..\Include\ble\ble_services\ble_srv_common.h)(0x54007D1C)
-I (C:\Keil\ARM\ARMCC\include\stdbool.h)(0x5419E3CC)
-I (..\..\..\..\..\Include\app_common\app_util.h)(0x54007D1C)
-I (..\..\..\..\..\Include\compiler_abstraction.h)(0x54007D3C)
-I (C:\Keil\ARM\ARMCC\include\stdlib.h)(0x5419E3CC)
-I (C:\Keil\ARM\ARMCC\include\string.h)(0x5419E3CC)
-I (..\..\..\..\..\Include\app_common\app_trace.h)(0x54007D1C)
-I (C:\Keil\ARM\ARMCC\include\stdio.h)(0x5419E3CC)
-I (..\..\..\..\..\Include\nordic_common.h)(0x54007D1C)
-F (..\..\..\..\..\Source\ext_sensors\nRF6350\nRF6350.c)(0x54007D1C)(--c99 -c --cpu Cortex-M0 -D__MICROLIB --li -g -O0 --apcs=interwork -I.. -I..\..\..\..\..\Include -I..\..\..\..\..\Include\app_common -I..\Include_s130\ble -I..\Include_s130\ble\device_manager -I..\Include_s130\ble\ble_services -I..\..\..\..\..\Include\s130 -I..\..\..\..\..\include\boards -I..\..\..\..\..\include\sd_common -I..\..\..\..\..\Include\ext_sensors -I..\..\..\..\..\Include\sdk -I..\inc_s130 -I..\..\..\..\..\Include\ble\ble_services -I..\..\..\..\..\Include\ble-I C:\Keil\ARM\Device\Nordic\nrf51822\Board\nrf6310\s120\ble_app_hrs_c_s130_sdk6_1_github\arm\RTE-I C:\Keil\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include-I C:\Keil\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\1.1.1\Device\Include-D_RTE_ -DNRF51 -DNRF51 -DDEBUG_NRF_USER -DBLE_STACK_SUPPORT_REQD -DBOARD_NRF6310 -DENABLE_DEBUG_LOG_SUPPORT-o .\_build\nrf6350.o --omf_browse .\_build\nrf6350.crf --depend .\_build\nrf6350.d)
-I (..\..\..\..\..\Include\ext_sensors\nrf6350.h)(0x54007D1C)
-I (C:\Keil\ARM\ARMCC\include\stdbool.h)(0x5419E3CC)
-I (C:\Keil\ARM\ARMCC\include\stdint.h)(0x5419E3CA)
-I (..\..\..\..\..\Include\nrf_delay.h)(0x54007D1C)
-I (..\..\..\..\..\Include\nrf.h)(0x54007D3C)
-I (..\..\..\..\..\Include\nrf51.h)(0x54007D3C)
-I (C:\Keil\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include\core_cm0.h)(0x53FC782A)
-I (C:\Keil\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include\core_cmInstr.h)(0x53FF38FA)
-I (C:\Keil\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include\core_cmFunc.h)(0x53FF38FA)
-I (..\..\..\..\..\Include\system_nrf51.h)(0x54007D3C)
-I (..\..\..\..\..\Include\nrf51_bitfields.h)(0x54007D3C)
-I (..\..\..\..\..\Include\nrf51_deprecated.h)(0x54007D3C)
-I (..\..\..\..\..\Include\compiler_abstraction.h)(0x54007D3C)
-I (..\..\..\..\..\Include\twi_master.h)(0x54007D1C)
-F (..\..\..\..\..\Source\twi_master\twi_hw_master.c)(0x54007D1E)(--c99 -c --cpu Cortex-M0 -D__MICROLIB --li -g -O0 --apcs=interwork -I.. -I..\..\..\..\..\Include -I..\..\..\..\..\Include\app_common -I..\Include_s130\ble -I..\Include_s130\ble\device_manager -I..\Include_s130\ble\ble_services -I..\..\..\..\..\Include\s130 -I..\..\..\..\..\include\boards -I..\..\..\..\..\include\sd_common -I..\..\..\..\..\Include\ext_sensors -I..\..\..\..\..\Include\sdk -I..\inc_s130 -I..\..\..\..\..\Include\ble\ble_services -I..\..\..\..\..\Include\ble-I C:\Keil\ARM\Device\Nordic\nrf51822\Board\nrf6310\s120\ble_app_hrs_c_s130_sdk6_1_github\arm\RTE-I C:\Keil\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include-I C:\Keil\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\1.1.1\Device\Include-D_RTE_ -DNRF51 -DNRF51 -DDEBUG_NRF_USER -DBLE_STACK_SUPPORT_REQD -DBOARD_NRF6310 -DENABLE_DEBUG_LOG_SUPPORT-o .\_build\twi_hw_master.o --omf_browse .\_build\twi_hw_master.crf --depend .\_build\twi_hw_master.d)
-I (..\..\..\..\..\Include\twi_master.h)(0x54007D1C)
-I (C:\Keil\ARM\ARMCC\include\stdbool.h)(0x5419E3CC)
-I (C:\Keil\ARM\ARMCC\include\stdint.h)(0x5419E3CA)
-I (..\twi_master_config.h)(0x54007D1C)
-I (..\..\..\..\..\Include\nrf.h)(0x54007D3C)
-I (..\..\..\..\..\Include\nrf51.h)(0x54007D3C)
-I (C:\Keil\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include\core_cm0.h)(0x53FC782A)
-I (C:\Keil\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include\core_cmInstr.h)(0x53FF38FA)
-I (C:\Keil\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include\core_cmFunc.h)(0x53FF38FA)
-I (..\..\..\..\..\Include\system_nrf51.h)(0x54007D3C)
-I (..\..\..\..\..\Include\nrf51_bitfields.h)(0x54007D3C)
-I (..\..\..\..\..\Include\nrf51_deprecated.h)(0x54007D3C)
-I (..\..\..\..\..\Include\compiler_abstraction.h)(0x54007D3C)
-I (..\..\..\..\..\Include\nrf_delay.h)(0x54007D1C)
-I (..\..\..\..\..\Include\nrf_gpio.h)(0x54007D1C)
-F (..\..\..\..\..\Source\app_common\pstorage.c)(0x54007D1C)(--c99 -c --cpu Cortex-M0 -D__MICROLIB --li -g -O0 --apcs=interwork -I.. -I..\..\..\..\..\Include -I..\..\..\..\..\Include\app_common -I..\Include_s130\ble -I..\Include_s130\ble\device_manager -I..\Include_s130\ble\ble_services -I..\..\..\..\..\Include\s130 -I..\..\..\..\..\include\boards -I..\..\..\..\..\include\sd_common -I..\..\..\..\..\Include\ext_sensors -I..\..\..\..\..\Include\sdk -I..\inc_s130 -I..\..\..\..\..\Include\ble\ble_services -I..\..\..\..\..\Include\ble-I C:\Keil\ARM\Device\Nordic\nrf51822\Board\nrf6310\s120\ble_app_hrs_c_s130_sdk6_1_github\arm\RTE-I C:\Keil\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include-I C:\Keil\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\1.1.1\Device\Include-D_RTE_ -DNRF51 -DNRF51 -DDEBUG_NRF_USER -DBLE_STACK_SUPPORT_REQD -DBOARD_NRF6310 -DENABLE_DEBUG_LOG_SUPPORT-o .\_build\pstorage.o --omf_browse .\_build\pstorage.crf --depend .\_build\pstorage.d)
-I (..\..\..\..\..\Include\app_common\pstorage.h)(0x54007D1C)
-I (..\pstorage_platform.h)(0x54007D1C)
-I (C:\Keil\ARM\ARMCC\include\stdint.h)(0x5419E3CA)
-I (C:\Keil\ARM\ARMCC\include\stdlib.h)(0x5419E3CC)
-I (C:\Keil\ARM\ARMCC\include\string.h)(0x5419E3CC)
-I (..\..\..\..\..\Include\nordic_common.h)(0x54007D1C)
-I (..\..\..\..\..\Include\s130\nrf_error.h)(0x53B3A781)
-I (..\..\..\..\..\Include\nrf_assert.h)(0x54007D1C)
-I (..\..\..\..\..\Include\nrf.h)(0x54007D3C)
-I (..\..\..\..\..\Include\nrf51.h)(0x54007D3C)
-I (C:\Keil\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include\core_cm0.h)(0x53FC782A)
-I (C:\Keil\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include\core_cmInstr.h)(0x53FF38FA)
-I (C:\Keil\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include\core_cmFunc.h)(0x53FF38FA)
-I (..\..\..\..\..\Include\system_nrf51.h)(0x54007D3C)
-I (..\..\..\..\..\Include\nrf51_bitfields.h)(0x54007D3C)
-I (..\..\..\..\..\Include\nrf51_deprecated.h)(0x54007D3C)
-I (..\..\..\..\..\Include\compiler_abstraction.h)(0x54007D3C)
-I (..\..\..\..\..\Include\s130\nrf_soc.h)(0x53B3A781)
-I (C:\Keil\ARM\ARMCC\include\stdbool.h)(0x5419E3CC)
-I (..\..\..\..\..\Include\s130\nrf_svc.h)(0x53B3A781)
-I (..\..\..\..\..\Include\s130\nrf_error_soc.h)(0x53B3A781)
-I (..\..\..\..\..\Include\app_common\app_util.h)(0x54007D1C)
-F (..\Source_s130\ble\device_manager\device_manager_central.c)(0x5457A7C1)(--c99 -c --cpu Cortex-M0 -D__MICROLIB --li -g -O0 --apcs=interwork -I.. -I..\..\..\..\..\Include -I..\..\..\..\..\Include\app_common -I..\Include_s130\ble -I..\Include_s130\ble\device_manager -I..\Include_s130\ble\ble_services -I..\..\..\..\..\Include\s130 -I..\..\..\..\..\include\boards -I..\..\..\..\..\include\sd_common -I..\..\..\..\..\Include\ext_sensors -I..\..\..\..\..\Include\sdk -I..\inc_s130 -I..\..\..\..\..\Include\ble\ble_services -I..\..\..\..\..\Include\ble-I C:\Keil\ARM\Device\Nordic\nrf51822\Board\nrf6310\s120\ble_app_hrs_c_s130_sdk6_1_github\arm\RTE-I C:\Keil\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include-I C:\Keil\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\1.1.1\Device\Include-D_RTE_ -DNRF51 -DNRF51 -DDEBUG_NRF_USER -DBLE_STACK_SUPPORT_REQD -DBOARD_NRF6310 -DENABLE_DEBUG_LOG_SUPPORT-o .\_build\device_manager_central.o --omf_browse .\_build\device_manager_central.crf --depend .\_build\device_manager_central.d)
-I (..\Include_s130\ble\device_manager\device_manager_s130.h)(0x544A193D)
-I (C:\Keil\ARM\ARMCC\include\stdint.h)(0x5419E3CA)
-I (C:\Keil\ARM\ARMCC\include\stdbool.h)(0x5419E3CC)
-I (..\..\..\..\..\Include\sdk\sdk_common.h)(0x54007D1C)
-I (C:\Keil\ARM\ARMCC\include\string.h)(0x5419E3CC)
-I (..\..\..\..\..\Include\nordic_common.h)(0x54007D1C)
-I (..\..\..\..\..\Include\compiler_abstraction.h)(0x54007D3C)
-I (..\..\..\..\..\Include\sdk\sdk_os.h)(0x54007D1C)
-I (..\..\..\..\..\Include\sdk\sdk_errors.h)(0x54007D1C)
-I (..\..\..\..\..\Include\s130\nrf_error.h)(0x53B3A781)
-I (..\..\..\..\..\Include\app_common\app_util.h)(0x54007D1C)
-I (..\..\..\..\..\Include\s130\ble.h)(0x53B3A781)
-I (..\..\..\..\..\Include\s130\ble_ranges.h)(0x53B3A781)
-I (..\..\..\..\..\Include\s130\ble_types.h)(0x53B3A781)
-I (..\..\..\..\..\Include\s130\ble_gap.h)(0x5449F257)
-I (..\..\..\..\..\Include\s130\nrf_svc.h)(0x53B3A781)
-I (..\..\..\..\..\Include\s130\ble_l2cap.h)(0x53B3A781)
-I (..\..\..\..\..\Include\s130\ble_err.h)(0x53B3A781)
-I (..\..\..\..\..\Include\s130\ble_gatt.h)(0x53B3A781)
-I (..\..\..\..\..\Include\s130\ble_gattc.h)(0x53B3A781)
-I (..\..\..\..\..\Include\s130\ble_gatts.h)(0x53B3A781)
-I (..\device_manager_cnfg.h)(0x54007D1C)
-I (..\..\..\..\..\Include\app_common\app_trace.h)(0x54007D1C)
-I (C:\Keil\ARM\ARMCC\include\stdio.h)(0x5419E3CC)
-I (..\..\..\..\..\Include\ble\ble_advdata.h)(0x54007D1C)
-I (..\..\..\..\..\Include\app_common\pstorage.h)(0x54007D1C)
-I (..\pstorage_platform.h)(0x54007D1C)
-I (..\..\..\..\..\Include\s130\ble_hci.h)(0x53B3A781)
-I (..\..\..\..\..\Include\app_common\app_error.h)(0x54007D1C)
-F (..\..\..\..\..\Source\app_common\app_button.c)(0x54007D1C)(--c99 -c --cpu Cortex-M0 -D__MICROLIB --li -g -O0 --apcs=interwork -I.. -I..\..\..\..\..\Include -I..\..\..\..\..\Include\app_common -I..\Include_s130\ble -I..\Include_s130\ble\device_manager -I..\Include_s130\ble\ble_services -I..\..\..\..\..\Include\s130 -I..\..\..\..\..\include\boards -I..\..\..\..\..\include\sd_common -I..\..\..\..\..\Include\ext_sensors -I..\..\..\..\..\Include\sdk -I..\inc_s130 -I..\..\..\..\..\Include\ble\ble_services -I..\..\..\..\..\Include\ble-I C:\Keil\ARM\Device\Nordic\nrf51822\Board\nrf6310\s120\ble_app_hrs_c_s130_sdk6_1_github\arm\RTE-I C:\Keil\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include-I C:\Keil\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\1.1.1\Device\Include-D_RTE_ -DNRF51 -DNRF51 -DDEBUG_NRF_USER -DBLE_STACK_SUPPORT_REQD -DBOARD_NRF6310 -DENABLE_DEBUG_LOG_SUPPORT-o .\_build\app_button.o --omf_browse .\_build\app_button.crf --depend .\_build\app_button.d)
-I (..\..\..\..\..\Include\app_common\app_button.h)(0x54007D1C)
-I (C:\Keil\ARM\ARMCC\include\stdint.h)(0x5419E3CA)
-I (C:\Keil\ARM\ARMCC\include\stdbool.h)(0x5419E3CC)
-I (..\..\..\..\..\Include\nrf.h)(0x54007D3C)
-I (..\..\..\..\..\Include\nrf51.h)(0x54007D3C)
-I (C:\Keil\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include\core_cm0.h)(0x53FC782A)
-I (C:\Keil\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include\core_cmInstr.h)(0x53FF38FA)
-I (C:\Keil\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include\core_cmFunc.h)(0x53FF38FA)
-I (..\..\..\..\..\Include\system_nrf51.h)(0x54007D3C)
-I (..\..\..\..\..\Include\nrf51_bitfields.h)(0x54007D3C)
-I (..\..\..\..\..\Include\nrf51_deprecated.h)(0x54007D3C)
-I (..\..\..\..\..\Include\compiler_abstraction.h)(0x54007D3C)
-I (..\..\..\..\..\Include\app_common\app_error.h)(0x54007D1C)
-I (..\..\..\..\..\Include\s130\nrf_error.h)(0x53B3A781)
-I (..\..\..\..\..\Include\app_common\app_scheduler.h)(0x54007D1C)
-I (..\..\..\..\..\Include\nrf_gpio.h)(0x54007D1C)
-I (C:\Keil\ARM\ARMCC\include\string.h)(0x5419E3CC)
-I (..\..\..\..\..\Include\nordic_common.h)(0x54007D1C)
-I (..\..\..\..\..\Include\app_common\app_util.h)(0x54007D1C)
-I (..\..\..\..\..\Include\app_common\app_gpiote.h)(0x54007D1C)
-I (..\..\..\..\..\Include\app_common\app_timer.h)(0x54007D1C)
-I (C:\Keil\ARM\ARMCC\include\stdio.h)(0x5419E3CC)
-F (..\..\..\..\..\Source\app_common\app_gpiote.c)(0x54007D1C)(--c99 -c --cpu Cortex-M0 -D__MICROLIB --li -g -O0 --apcs=interwork -I.. -I..\..\..\..\..\Include -I..\..\..\..\..\Include\app_common -I..\Include_s130\ble -I..\Include_s130\ble\device_manager -I..\Include_s130\ble\ble_services -I..\..\..\..\..\Include\s130 -I..\..\..\..\..\include\boards -I..\..\..\..\..\include\sd_common -I..\..\..\..\..\Include\ext_sensors -I..\..\..\..\..\Include\sdk -I..\inc_s130 -I..\..\..\..\..\Include\ble\ble_services -I..\..\..\..\..\Include\ble-I C:\Keil\ARM\Device\Nordic\nrf51822\Board\nrf6310\s120\ble_app_hrs_c_s130_sdk6_1_github\arm\RTE-I C:\Keil\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include-I C:\Keil\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\1.1.1\Device\Include-D_RTE_ -DNRF51 -DNRF51 -DDEBUG_NRF_USER -DBLE_STACK_SUPPORT_REQD -DBOARD_NRF6310 -DENABLE_DEBUG_LOG_SUPPORT-o .\_build\app_gpiote.o --omf_browse .\_build\app_gpiote.crf --depend .\_build\app_gpiote.d)
-I (..\..\..\..\..\Include\app_common\app_gpiote.h)(0x54007D1C)
-I (C:\Keil\ARM\ARMCC\include\stdint.h)(0x5419E3CA)
-I (C:\Keil\ARM\ARMCC\include\stdbool.h)(0x5419E3CC)
-I (..\..\..\..\..\Include\nrf.h)(0x54007D3C)
-I (..\..\..\..\..\Include\nrf51.h)(0x54007D3C)
-I (C:\Keil\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include\core_cm0.h)(0x53FC782A)
-I (C:\Keil\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include\core_cmInstr.h)(0x53FF38FA)
-I (C:\Keil\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include\core_cmFunc.h)(0x53FF38FA)
-I (..\..\..\..\..\Include\system_nrf51.h)(0x54007D3C)
-I (..\..\..\..\..\Include\nrf51_bitfields.h)(0x54007D3C)
-I (..\..\..\..\..\Include\nrf51_deprecated.h)(0x54007D3C)
-I (..\..\..\..\..\Include\compiler_abstraction.h)(0x54007D3C)
-I (..\..\..\..\..\Include\app_common\app_error.h)(0x54007D1C)
-I (..\..\..\..\..\Include\s130\nrf_error.h)(0x53B3A781)
-I (..\..\..\..\..\Include\app_common\app_util.h)(0x54007D1C)
-I (C:\Keil\ARM\ARMCC\include\stdlib.h)(0x5419E3CC)
-I (C:\Keil\ARM\ARMCC\include\string.h)(0x5419E3CC)
-I (..\..\..\..\..\include\sd_common\app_util_platform.h)(0x54007D1C)
-I (..\..\..\..\..\Include\nrf_gpio.h)(0x54007D1C)
-F (..\..\..\..\..\Source\app_common\app_timer.c)(0x54007D1C)(--c99 -c --cpu Cortex-M0 -D__MICROLIB --li -g -O0 --apcs=interwork -I.. -I..\..\..\..\..\Include -I..\..\..\..\..\Include\app_common -I..\Include_s130\ble -I..\Include_s130\ble\device_manager -I..\Include_s130\ble\ble_services -I..\..\..\..\..\Include\s130 -I..\..\..\..\..\include\boards -I..\..\..\..\..\include\sd_common -I..\..\..\..\..\Include\ext_sensors -I..\..\..\..\..\Include\sdk -I..\inc_s130 -I..\..\..\..\..\Include\ble\ble_services -I..\..\..\..\..\Include\ble-I C:\Keil\ARM\Device\Nordic\nrf51822\Board\nrf6310\s120\ble_app_hrs_c_s130_sdk6_1_github\arm\RTE-I C:\Keil\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include-I C:\Keil\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\1.1.1\Device\Include-D_RTE_ -DNRF51 -DNRF51 -DDEBUG_NRF_USER -DBLE_STACK_SUPPORT_REQD -DBOARD_NRF6310 -DENABLE_DEBUG_LOG_SUPPORT-o .\_build\app_timer.o --omf_browse .\_build\app_timer.crf --depend .\_build\app_timer.d)
-I (..\..\..\..\..\Include\app_common\app_timer.h)(0x54007D1C)
-I (C:\Keil\ARM\ARMCC\include\stdint.h)(0x5419E3CA)
-I (C:\Keil\ARM\ARMCC\include\stdbool.h)(0x5419E3CC)
-I (C:\Keil\ARM\ARMCC\include\stdio.h)(0x5419E3CC)
-I (..\..\..\..\..\Include\app_common\app_error.h)(0x54007D1C)
-I (..\..\..\..\..\Include\s130\nrf_error.h)(0x53B3A781)
-I (..\..\..\..\..\Include\app_common\app_util.h)(0x54007D1C)
-I (..\..\..\..\..\Include\compiler_abstraction.h)(0x54007D3C)
-I (..\..\..\..\..\Include\app_common\app_scheduler.h)(0x54007D1C)
-I (C:\Keil\ARM\ARMCC\include\stdlib.h)(0x5419E3CC)
-I (..\..\..\..\..\Include\nrf51.h)(0x54007D3C)
-I (C:\Keil\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include\core_cm0.h)(0x53FC782A)
-I (C:\Keil\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include\core_cmInstr.h)(0x53FF38FA)
-I (C:\Keil\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include\core_cmFunc.h)(0x53FF38FA)
-I (..\..\..\..\..\Include\system_nrf51.h)(0x54007D3C)
-I (..\..\..\..\..\Include\nrf51_bitfields.h)(0x54007D3C)
-I (..\..\..\..\..\Include\s130\nrf_soc.h)(0x53B3A781)
-I (..\..\..\..\..\Include\s130\nrf_svc.h)(0x53B3A781)
-I (..\..\..\..\..\Include\s130\nrf_error_soc.h)(0x53B3A781)
-I (..\..\..\..\..\Include\nrf_delay.h)(0x54007D1C)
-I (..\..\..\..\..\Include\nrf.h)(0x54007D3C)
-I (..\..\..\..\..\Include\nrf51_deprecated.h)(0x54007D3C)
-I (..\..\..\..\..\include\sd_common\app_util_platform.h)(0x54007D1C)
-F (..\..\..\..\..\Source\sd_common\softdevice_handler.c)(0x54007D1C)(--c99 -c --cpu Cortex-M0 -D__MICROLIB --li -g -O0 --apcs=interwork -I.. -I..\..\..\..\..\Include -I..\..\..\..\..\Include\app_common -I..\Include_s130\ble -I..\Include_s130\ble\device_manager -I..\Include_s130\ble\ble_services -I..\..\..\..\..\Include\s130 -I..\..\..\..\..\include\boards -I..\..\..\..\..\include\sd_common -I..\..\..\..\..\Include\ext_sensors -I..\..\..\..\..\Include\sdk -I..\inc_s130 -I..\..\..\..\..\Include\ble\ble_services -I..\..\..\..\..\Include\ble-I C:\Keil\ARM\Device\Nordic\nrf51822\Board\nrf6310\s120\ble_app_hrs_c_s130_sdk6_1_github\arm\RTE-I C:\Keil\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include-I C:\Keil\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\1.1.1\Device\Include-D_RTE_ -DNRF51 -DNRF51 -DDEBUG_NRF_USER -DBLE_STACK_SUPPORT_REQD -DBOARD_NRF6310 -DENABLE_DEBUG_LOG_SUPPORT-o .\_build\softdevice_handler.o --omf_browse .\_build\softdevice_handler.crf --depend .\_build\softdevice_handler.d)
-I (..\..\..\..\..\include\sd_common\softdevice_handler.h)(0x54007D1C)
-I (C:\Keil\ARM\ARMCC\include\stdlib.h)(0x5419E3CC)
-I (..\..\..\..\..\Include\nordic_common.h)(0x54007D1C)
-I (..\..\..\..\..\Include\s130\nrf_sdm.h)(0x53B3A781)
-I (..\..\..\..\..\Include\s130\nrf_svc.h)(0x53B3A781)
-I (..\..\..\..\..\Include\nrf51.h)(0x54007D3C)
-I (C:\Keil\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include\core_cm0.h)(0x53FC782A)
-I (C:\Keil\ARM\ARMCC\include\stdint.h)(0x5419E3CA)
-I (C:\Keil\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include\core_cmInstr.h)(0x53FF38FA)
-I (C:\Keil\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include\core_cmFunc.h)(0x53FF38FA)
-I (..\..\..\..\..\Include\system_nrf51.h)(0x54007D3C)
-I (..\..\..\..\..\Include\s130\nrf_soc.h)(0x53B3A781)
-I (C:\Keil\ARM\ARMCC\include\stdbool.h)(0x5419E3CC)
-I (..\..\..\..\..\Include\nrf51_bitfields.h)(0x54007D3C)
-I (..\..\..\..\..\Include\s130\nrf_error_soc.h)(0x53B3A781)
-I (..\..\..\..\..\Include\s130\nrf_error.h)(0x53B3A781)
-I (..\..\..\..\..\Include\s130\nrf_error_sdm.h)(0x53B3A781)
-I (..\..\..\..\..\Include\app_common\app_error.h)(0x54007D1C)
-I (..\..\..\..\..\Include\app_common\app_scheduler.h)(0x54007D1C)
-I (..\..\..\..\..\Include\app_common\app_util.h)(0x54007D1C)
-I (..\..\..\..\..\Include\compiler_abstraction.h)(0x54007D3C)
-I (..\..\..\..\..\include\sd_common\ble_stack_handler_types.h)(0x54007D1C)
-I (..\..\..\..\..\Include\s130\ble.h)(0x53B3A781)
-I (..\..\..\..\..\Include\s130\ble_ranges.h)(0x53B3A781)
-I (..\..\..\..\..\Include\s130\ble_types.h)(0x53B3A781)
-I (..\..\..\..\..\Include\s130\ble_gap.h)(0x5449F257)
-I (..\..\..\..\..\Include\s130\ble_l2cap.h)(0x53B3A781)
-I (..\..\..\..\..\Include\s130\ble_err.h)(0x53B3A781)
-I (..\..\..\..\..\Include\s130\ble_gatt.h)(0x53B3A781)
-I (..\..\..\..\..\Include\s130\ble_gattc.h)(0x53B3A781)
-I (..\..\..\..\..\Include\s130\ble_gatts.h)(0x53B3A781)
-I (..\..\..\..\..\include\sd_common\ant_stack_handler_types.h)(0x54007D1C)
-I (..\..\..\..\..\Include\nrf_assert.h)(0x54007D1C)
-F (..\..\..\..\..\Source\ble\ble_advdata.c)(0x54007D1C)(--c99 -c --cpu Cortex-M0 -D__MICROLIB --li -g -O0 --apcs=interwork -I.. -I..\..\..\..\..\Include -I..\..\..\..\..\Include\app_common -I..\Include_s130\ble -I..\Include_s130\ble\device_manager -I..\Include_s130\ble\ble_services -I..\..\..\..\..\Include\s130 -I..\..\..\..\..\include\boards -I..\..\..\..\..\include\sd_common -I..\..\..\..\..\Include\ext_sensors -I..\..\..\..\..\Include\sdk -I..\inc_s130 -I..\..\..\..\..\Include\ble\ble_services -I..\..\..\..\..\Include\ble-I C:\Keil\ARM\Device\Nordic\nrf51822\Board\nrf6310\s120\ble_app_hrs_c_s130_sdk6_1_github\arm\RTE-I C:\Keil\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include-I C:\Keil\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\1.1.1\Device\Include-D_RTE_ -DNRF51 -DNRF51 -DDEBUG_NRF_USER -DBLE_STACK_SUPPORT_REQD -DBOARD_NRF6310 -DENABLE_DEBUG_LOG_SUPPORT-o .\_build\ble_advdata.o --omf_browse .\_build\ble_advdata.crf --depend .\_build\ble_advdata.d)
-I (..\..\..\..\..\Include\ble\ble_advdata.h)(0x54007D1C)
-I (C:\Keil\ARM\ARMCC\include\stdint.h)(0x5419E3CA)
-I (C:\Keil\ARM\ARMCC\include\stdbool.h)(0x5419E3CC)
-I (C:\Keil\ARM\ARMCC\include\string.h)(0x5419E3CC)
-I (..\..\..\..\..\Include\s130\ble.h)(0x53B3A781)
-I (..\..\..\..\..\Include\s130\ble_ranges.h)(0x53B3A781)
-I (..\..\..\..\..\Include\s130\ble_types.h)(0x53B3A781)
-I (..\..\..\..\..\Include\s130\ble_gap.h)(0x5449F257)
-I (..\..\..\..\..\Include\s130\nrf_svc.h)(0x53B3A781)
-I (..\..\..\..\..\Include\s130\ble_l2cap.h)(0x53B3A781)
-I (..\..\..\..\..\Include\s130\ble_err.h)(0x53B3A781)
-I (..\..\..\..\..\Include\s130\nrf_error.h)(0x53B3A781)
-I (..\..\..\..\..\Include\s130\ble_gatt.h)(0x53B3A781)
-I (..\..\..\..\..\Include\s130\ble_gattc.h)(0x53B3A781)
-I (..\..\..\..\..\Include\s130\ble_gatts.h)(0x53B3A781)
-I (..\..\..\..\..\Include\app_common\app_util.h)(0x54007D1C)
-I (..\..\..\..\..\Include\compiler_abstraction.h)(0x54007D3C)
-I (..\..\..\..\..\Include\nordic_common.h)(0x54007D1C)
-I (..\..\..\..\..\Include\ble\ble_services\ble_srv_common.h)(0x54007D1C)
-F (..\Source_s130\ble\ble_conn_params.c)(0x5457A79F)(--c99 -c --cpu Cortex-M0 -D__MICROLIB --li -g -O0 --apcs=interwork -I.. -I..\..\..\..\..\Include -I..\..\..\..\..\Include\app_common -I..\Include_s130\ble -I..\Include_s130\ble\device_manager -I..\Include_s130\ble\ble_services -I..\..\..\..\..\Include\s130 -I..\..\..\..\..\include\boards -I..\..\..\..\..\include\sd_common -I..\..\..\..\..\Include\ext_sensors -I..\..\..\..\..\Include\sdk -I..\inc_s130 -I..\..\..\..\..\Include\ble\ble_services -I..\..\..\..\..\Include\ble-I C:\Keil\ARM\Device\Nordic\nrf51822\Board\nrf6310\s120\ble_app_hrs_c_s130_sdk6_1_github\arm\RTE-I C:\Keil\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include-I C:\Keil\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\1.1.1\Device\Include-D_RTE_ -DNRF51 -DNRF51 -DDEBUG_NRF_USER -DBLE_STACK_SUPPORT_REQD -DBOARD_NRF6310 -DENABLE_DEBUG_LOG_SUPPORT-o .\_build\ble_conn_params.o --omf_browse .\_build\ble_conn_params.crf --depend .\_build\ble_conn_params.d)
-I (..\Include_s130\ble\ble_conn_params_s130.h)(0x544A1B90)
-I (C:\Keil\ARM\ARMCC\include\stdint.h)(0x5419E3CA)
-I (..\..\..\..\..\Include\s130\ble.h)(0x53B3A781)
-I (..\..\..\..\..\Include\s130\ble_ranges.h)(0x53B3A781)
-I (..\..\..\..\..\Include\s130\ble_types.h)(0x53B3A781)
-I (..\..\..\..\..\Include\s130\ble_gap.h)(0x5449F257)
-I (..\..\..\..\..\Include\s130\nrf_svc.h)(0x53B3A781)
-I (..\..\..\..\..\Include\s130\ble_l2cap.h)(0x53B3A781)
-I (..\..\..\..\..\Include\s130\ble_err.h)(0x53B3A781)
-I (..\..\..\..\..\Include\s130\nrf_error.h)(0x53B3A781)
-I (..\..\..\..\..\Include\s130\ble_gatt.h)(0x53B3A781)
-I (..\..\..\..\..\Include\s130\ble_gattc.h)(0x53B3A781)
-I (..\..\..\..\..\Include\s130\ble_gatts.h)(0x53B3A781)
-I (..\..\..\..\..\Include\ble\ble_services\ble_srv_common.h)(0x54007D1C)
-I (C:\Keil\ARM\ARMCC\include\stdbool.h)(0x5419E3CC)
-I (..\..\..\..\..\Include\app_common\app_util.h)(0x54007D1C)
-I (..\..\..\..\..\Include\compiler_abstraction.h)(0x54007D3C)
-I (C:\Keil\ARM\ARMCC\include\stdlib.h)(0x5419E3CC)
-I (..\..\..\..\..\Include\nordic_common.h)(0x54007D1C)
-I (..\..\..\..\..\Include\s130\ble_hci.h)(0x53B3A781)
-I (..\..\..\..\..\Include\app_common\app_timer.h)(0x54007D1C)
-I (C:\Keil\ARM\ARMCC\include\stdio.h)(0x5419E3CC)
-I (..\..\..\..\..\Include\app_common\app_error.h)(0x54007D1C)
-I (..\..\..\..\..\Include\app_common\app_scheduler.h)(0x54007D1C)
-F (..\..\..\..\..\Source\ble\ble_services\ble_srv_common.c)(0x54007D1C)(--c99 -c --cpu Cortex-M0 -D__MICROLIB --li -g -O0 --apcs=interwork -I.. -I..\..\..\..\..\Include -I..\..\..\..\..\Include\app_common -I..\Include_s130\ble -I..\Include_s130\ble\device_manager -I..\Include_s130\ble\ble_services -I..\..\..\..\..\Include\s130 -I..\..\..\..\..\include\boards -I..\..\..\..\..\include\sd_common -I..\..\..\..\..\Include\ext_sensors -I..\..\..\..\..\Include\sdk -I..\inc_s130 -I..\..\..\..\..\Include\ble\ble_services -I..\..\..\..\..\Include\ble-I C:\Keil\ARM\Device\Nordic\nrf51822\Board\nrf6310\s120\ble_app_hrs_c_s130_sdk6_1_github\arm\RTE-I C:\Keil\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include-I C:\Keil\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\1.1.1\Device\Include-D_RTE_ -DNRF51 -DNRF51 -DDEBUG_NRF_USER -DBLE_STACK_SUPPORT_REQD -DBOARD_NRF6310 -DENABLE_DEBUG_LOG_SUPPORT-o .\_build\ble_srv_common.o --omf_browse .\_build\ble_srv_common.crf --depend .\_build\ble_srv_common.d)
-I (..\..\..\..\..\Include\ble\ble_services\ble_srv_common.h)(0x54007D1C)
-I (C:\Keil\ARM\ARMCC\include\stdint.h)(0x5419E3CA)
-I (C:\Keil\ARM\ARMCC\include\stdbool.h)(0x5419E3CC)
-I (..\..\..\..\..\Include\s130\ble_types.h)(0x53B3A781)
-I (..\..\..\..\..\Include\app_common\app_util.h)(0x54007D1C)
-I (..\..\..\..\..\Include\compiler_abstraction.h)(0x54007D3C)
-I (..\..\..\..\..\Include\s130\ble_gap.h)(0x5449F257)
-I (..\..\..\..\..\Include\s130\ble_ranges.h)(0x53B3A781)
-I (..\..\..\..\..\Include\s130\nrf_svc.h)(0x53B3A781)
-I (..\..\..\..\..\Include\s130\ble_gatt.h)(0x53B3A781)
-I (C:\Keil\ARM\ARMCC\include\string.h)(0x5419E3CC)
-I (..\..\..\..\..\Include\nordic_common.h)(0x54007D1C)
-I (..\..\..\..\..\Include\app_common\app_error.h)(0x54007D1C)
-I (..\..\..\..\..\Include\s130\nrf_error.h)(0x53B3A781)
-F (..\..\..\..\..\\Source\ble\ble_sensorsim.c)(0x54007D1C)(--c99 -c --cpu Cortex-M0 -D__MICROLIB --li -g -O0 --apcs=interwork -I.. -I..\..\..\..\..\Include -I..\..\..\..\..\Include\app_common -I..\Include_s130\ble -I..\Include_s130\ble\device_manager -I..\Include_s130\ble\ble_services -I..\..\..\..\..\Include\s130 -I..\..\..\..\..\include\boards -I..\..\..\..\..\include\sd_common -I..\..\..\..\..\Include\ext_sensors -I..\..\..\..\..\Include\sdk -I..\inc_s130 -I..\..\..\..\..\Include\ble\ble_services -I..\..\..\..\..\Include\ble-I C:\Keil\ARM\Device\Nordic\nrf51822\Board\nrf6310\s120\ble_app_hrs_c_s130_sdk6_1_github\arm\RTE-I C:\Keil\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include-I C:\Keil\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\1.1.1\Device\Include-D_RTE_ -DNRF51 -DNRF51 -DDEBUG_NRF_USER -DBLE_STACK_SUPPORT_REQD -DBOARD_NRF6310 -DENABLE_DEBUG_LOG_SUPPORT-o .\_build\ble_sensorsim.o --omf_browse .\_build\ble_sensorsim.crf --depend .\_build\ble_sensorsim.d)
-I (..\..\..\..\..\Include\ble\ble_sensorsim.h)(0x54007D1C)
-I (C:\Keil\ARM\ARMCC\include\stdint.h)(0x5419E3CA)
-I (C:\Keil\ARM\ARMCC\include\stdbool.h)(0x5419E3CC)

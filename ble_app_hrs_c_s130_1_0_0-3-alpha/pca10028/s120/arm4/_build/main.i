@@ -21662,8 +21662,8 @@ static _Bool                         m_memory_access_in_progress = 0;
  
 static const ble_gap_conn_params_t m_connection_param =
 {
-    (uint16_t)(((7.5) * 1000) / (UNIT_1_25_MS)),   
-    (uint16_t)(((30) * 1000) / (UNIT_1_25_MS)),   
+    (uint16_t)(((50) * 1000) / (UNIT_1_25_MS)),   
+    (uint16_t)(((100) * 1000) / (UNIT_1_25_MS)),   
     0,                                   
     (uint16_t)(((4000) * 1000) / (UNIT_10_MS))        
 };
@@ -22112,7 +22112,7 @@ static void ble_stack_init(void)
     
     ble_enable_params_t ble_enable_params;
     memset(&ble_enable_params, 0, sizeof(ble_enable_params));
-    ble_enable_params.gatts_enable_params.service_changed = 1;
+    ble_enable_params.gatts_enable_params.service_changed = 0;
     err_code = sd_ble_enable(&ble_enable_params);
     do { const uint32_t LOCAL_ERR_CODE = (err_code); if (LOCAL_ERR_CODE != ((0x0) + 0)) { do { app_error_handler((LOCAL_ERR_CODE), 0, 0); } while (0); } } while (0);
 
@@ -22582,8 +22582,8 @@ static void peripheral_gap_params_init(void)
 
     memset(&gap_conn_params, 0, sizeof(gap_conn_params));
 
-    gap_conn_params.min_conn_interval = (((500) * 1000) / (UNIT_1_25_MS));
-    gap_conn_params.max_conn_interval = (((1000) * 1000) / (UNIT_1_25_MS));
+    gap_conn_params.min_conn_interval = (((1000) * 1000) / (UNIT_1_25_MS));
+    gap_conn_params.max_conn_interval = (((1500) * 1000) / (UNIT_1_25_MS));
     gap_conn_params.slave_latency     = 0;
     gap_conn_params.conn_sup_timeout  = (((4000) * 1000) / (UNIT_10_MS));
 

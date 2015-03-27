@@ -98,8 +98,8 @@
 
 #define PERIPHERAL_SENSOR_CONTACT_DETECTED_INTERVAL     APP_TIMER_TICKS(5000, PERIPHERAL_APP_TIMER_PRESCALER) /**< Sensor Contact Detected toggle interval (ticks). */
 
-#define PERIPHERAL_MIN_CONN_INTERVAL                    MSEC_TO_UNITS(500, UNIT_1_25_MS)           /**< Minimum acceptable connection interval (0.5 seconds). */
-#define PERIPHERAL_MAX_CONN_INTERVAL                    MSEC_TO_UNITS(1000, UNIT_1_25_MS)          /**< Maximum acceptable connection interval (1 second). */
+#define PERIPHERAL_MIN_CONN_INTERVAL                   MSEC_TO_UNITS(1000, UNIT_1_25_MS)           /**< Minimum acceptable connection interval (0.5 seconds). */
+#define PERIPHERAL_MAX_CONN_INTERVAL                   MSEC_TO_UNITS(1500, UNIT_1_25_MS)          /**< Maximum acceptable connection interval (1 second). */
 #define PERIPHERAL_SLAVE_LATENCY                        0                                          /**< Slave latency. */
 #define PERIPHERAL_CONN_SUP_TIMEOUT                     MSEC_TO_UNITS(4000, UNIT_10_MS)           /**< Connection supervisory timeout (4 seconds). */
 
@@ -161,8 +161,8 @@ static bool                                  m_central_is_scanning          = fa
 #define SCAN_INTERVAL              0x00A0                             /**< Determines scan interval in units of 0.625 millisecond. */
 #define SCAN_WINDOW                0x0050                             /**< Determines scan window in units of 0.625 millisecond. */
 
-#define MIN_CONNECTION_INTERVAL    MSEC_TO_UNITS(7.5, UNIT_1_25_MS)   /**< Determines maximum connection interval in millisecond. */
-#define MAX_CONNECTION_INTERVAL    MSEC_TO_UNITS(30, UNIT_1_25_MS)    /**< Determines maximum connection interval in millisecond. */
+#define MIN_CONNECTION_INTERVAL    MSEC_TO_UNITS(50, UNIT_1_25_MS)   /**< Determines maximum connection interval in millisecond. */
+#define MAX_CONNECTION_INTERVAL    MSEC_TO_UNITS(100, UNIT_1_25_MS)    /**< Determines maximum connection interval in millisecond. */
 #define SLAVE_LATENCY              0                                  /**< Determines slave latency in counts of connection events. */
 #define SUPERVISION_TIMEOUT        MSEC_TO_UNITS(4000, UNIT_10_MS)    /**< Determines supervision time-out in units of 10 millisecond. */
 
@@ -664,7 +664,7 @@ static void ble_stack_init(void)
     //Enable BLE stack 
     ble_enable_params_t ble_enable_params;
     memset(&ble_enable_params, 0, sizeof(ble_enable_params));
-    ble_enable_params.gatts_enable_params.service_changed = 1;//0;
+    ble_enable_params.gatts_enable_params.service_changed = 0;
     err_code = sd_ble_enable(&ble_enable_params);
     APP_ERROR_CHECK(err_code);
 

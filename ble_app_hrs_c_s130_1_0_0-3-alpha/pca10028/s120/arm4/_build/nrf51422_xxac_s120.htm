@@ -3,7 +3,7 @@
 <title>Static Call Graph - [.\_build\nrf51422_xxac_s120.axf]</title></head>
 <body><HR>
 <H1>Static Call Graph for image .\_build\nrf51422_xxac_s120.axf</H1><HR>
-<BR><P>#&#060CALLGRAPH&#062# ARM Linker, 5050041: Last Updated: Tue Mar 24 21:43:48 2015
+<BR><P>#&#060CALLGRAPH&#062# ARM Linker, 5050041: Last Updated: Fri Mar 27 09:47:58 2015
 <BR><P>
 <H3>Maximum Stack Usage =        312 bytes + Unknown(Cycles, Untraceable Function Pointers)</H3><H3>
 Call chain for Maximum Stack Depth:</H3>
@@ -138,10 +138,7 @@ Global Symbols
 <BR>[Calls]<UL><LI><a href="#[4e]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;nrf_gpio_pin_set
 <LI><a href="#[4d]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__2printf
 </UL>
-<BR>[Called By]<UL><LI><a href="#[e4]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;char_add
-<LI><a href="#[e2]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;pnp_id_encode
-<LI><a href="#[e1]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;sys_id_encode
-<LI><a href="#[32]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;dm_pstorage_cb_handler
+<BR>[Called By]<UL><LI><a href="#[32]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;dm_pstorage_cb_handler
 <LI><a href="#[9e]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ble_srv_report_ref_encode
 <LI><a href="#[5d]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;dm_ble_evt_handler
 <LI><a href="#[1f]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;main
@@ -170,6 +167,9 @@ Global Symbols
 <LI><a href="#[14d]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;intern_softdevice_events_execute
 <LI><a href="#[39]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;uart_error_handle
 <LI><a href="#[136]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;timeout_handler_exec
+<LI><a href="#[e4]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;char_add
+<LI><a href="#[e2]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;pnp_id_encode
+<LI><a href="#[e1]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;sys_id_encode
 </UL>
 
 <P><STRONG><a name="[4f]"></a>assert_nrf_callback</STRONG> (Thumb, 18 bytes, Stack size 16 bytes, main.o(.text))
@@ -593,10 +593,10 @@ Global Symbols
 <P><STRONG><a name="[61]"></a>ble_hrs_on_ble_evt</STRONG> (Thumb, 88 bytes, Stack size 24 bytes, ble_hrs.o(.text))
 <BR><BR>[Stack]<UL><LI>Max Depth = 64<LI>Call Chain = ble_hrs_on_ble_evt &rArr; on_peer_peripheral_hvx
 </UL>
-<BR>[Calls]<UL><LI><a href="#[da]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;on_peer_peripheral_hvx
-<LI><a href="#[d6]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;on_write
-<LI><a href="#[d9]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;on_disconnect
+<BR>[Calls]<UL><LI><a href="#[d9]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;on_disconnect
 <LI><a href="#[d8]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;on_connect
+<LI><a href="#[da]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;on_peer_peripheral_hvx
+<LI><a href="#[d6]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;on_write
 </UL>
 <BR>[Called By]<UL><LI><a href="#[20]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ble_evt_dispatch
 </UL>
@@ -688,10 +688,10 @@ Global Symbols
 <P><STRONG><a name="[5e]"></a>ble_db_discovery_on_ble_evt</STRONG> (Thumb, 134 bytes, Stack size 24 bytes, ble_db_discovery.o(.text))
 <BR><BR>[Stack]<UL><LI>Max Depth = 136<LI>Call Chain = ble_db_discovery_on_ble_evt &rArr; on_characteristic_discovery_rsp &rArr; descriptors_discover &rArr; is_desc_discovery_reqd
 </UL>
-<BR>[Calls]<UL><LI><a href="#[f4]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;on_descriptor_discovery_rsp
+<BR>[Calls]<UL><LI><a href="#[56]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__aeabi_memclr
+<LI><a href="#[f4]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;on_descriptor_discovery_rsp
 <LI><a href="#[f2]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;on_characteristic_discovery_rsp
 <LI><a href="#[f0]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;on_primary_srv_discovery_rsp
-<LI><a href="#[56]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__aeabi_memclr
 </UL>
 <BR>[Called By]<UL><LI><a href="#[20]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ble_evt_dispatch
 </UL>
@@ -722,8 +722,8 @@ Global Symbols
 </UL>
 
 <P><STRONG><a name="[fd]"></a>ble_conn_params_change_conn_params</STRONG> (Thumb, 86 bytes, Stack size 16 bytes, ble_conn_params.o(.text), UNUSED)
-<BR><BR>[Calls]<UL><LI><a href="#[f8]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;is_conn_params_ok
-<LI><a href="#[54]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__aeabi_memcpy
+<BR><BR>[Calls]<UL><LI><a href="#[54]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__aeabi_memcpy
+<LI><a href="#[f8]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;is_conn_params_ok
 </UL>
 
 <P><STRONG><a name="[100]"></a>action_tx_stop</STRONG> (Thumb, 28 bytes, Stack size 16 bytes, app_uart_fifo.o(.text))
@@ -1015,10 +1015,10 @@ Global Symbols
 <BR>[Calls]<UL><LI><a href="#[147]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;user_id_get
 <LI><a href="#[142]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;timer_start_op_schedule
 </UL>
-<BR>[Called By]<UL><LI><a href="#[f7]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;conn_params_negotiation
-<LI><a href="#[93]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;bsp_led_indication
+<BR>[Called By]<UL><LI><a href="#[93]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;bsp_led_indication
 <LI><a href="#[8e]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;peripheral_application_timers_start
 <LI><a href="#[37]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;gpiote_event_handler
+<LI><a href="#[f7]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;conn_params_negotiation
 </UL>
 
 <P><STRONG><a name="[95]"></a>app_timer_stop</STRONG> (Thumb, 60 bytes, Stack size 16 bytes, app_timer.o(.text))
@@ -1027,12 +1027,12 @@ Global Symbols
 <BR>[Calls]<UL><LI><a href="#[147]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;user_id_get
 <LI><a href="#[145]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;timer_stop_op_schedule
 </UL>
-<BR>[Called By]<UL><LI><a href="#[f6]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ble_conn_params_stop
-<LI><a href="#[fb]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;on_write
-<LI><a href="#[fa]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;on_disconnect
-<LI><a href="#[93]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;bsp_led_indication
+<BR>[Called By]<UL><LI><a href="#[93]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;bsp_led_indication
 <LI><a href="#[126]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;app_button_disable
 <LI><a href="#[37]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;gpiote_event_handler
+<LI><a href="#[f6]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ble_conn_params_stop
+<LI><a href="#[fb]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;on_write
+<LI><a href="#[fa]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;on_disconnect
 </UL>
 
 <P><STRONG><a name="[149]"></a>app_timer_stop_all</STRONG> (Thumb, 26 bytes, Stack size 8 bytes, app_timer.o(.text), UNUSED)
@@ -1163,12 +1163,7 @@ Global Symbols
 <P><STRONG><a name="[54]"></a>__aeabi_memcpy</STRONG> (Thumb, 64 bytes, Stack size 8 bytes, memmovea.o(.text))
 <BR><BR>[Stack]<UL><LI>Max Depth = 8<LI>Call Chain = __aeabi_memcpy
 </UL>
-<BR>[Called By]<UL><LI><a href="#[fd]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ble_conn_params_change_conn_params
-<LI><a href="#[fc]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;on_conn_params_update
-<LI><a href="#[f9]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;on_connect
-<LI><a href="#[f2]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;on_characteristic_discovery_rsp
-<LI><a href="#[ec]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;discovery_complete_evt_trigger
-<LI><a href="#[d0]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;service_data_encode
+<BR>[Called By]<UL><LI><a href="#[d0]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;service_data_encode
 <LI><a href="#[cf]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;manuf_specific_data_encode
 <LI><a href="#[ad]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;pstorage_load
 <LI><a href="#[bb]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;dm_peer_addr_get
@@ -1179,6 +1174,11 @@ Global Symbols
 <LI><a href="#[5d]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;dm_ble_evt_handler
 <LI><a href="#[8d]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ble_conn_params_init
 <LI><a href="#[22]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;device_manager_event_handler
+<LI><a href="#[fd]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ble_conn_params_change_conn_params
+<LI><a href="#[fc]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;on_conn_params_update
+<LI><a href="#[f9]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;on_connect
+<LI><a href="#[f2]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;on_characteristic_discovery_rsp
+<LI><a href="#[ec]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;discovery_complete_evt_trigger
 </UL>
 
 <P><STRONG><a name="[ab]"></a>__aeabi_memcpy4</STRONG> (Thumb, 0 bytes, Stack size 8 bytes, memmovea.o(.text))
@@ -1191,8 +1191,8 @@ Global Symbols
 <P><STRONG><a name="[dd]"></a>__aeabi_memmove</STRONG> (Thumb, 0 bytes, Stack size 8 bytes, memmovea.o(.text))
 <BR><BR>[Stack]<UL><LI>Max Depth = 8<LI>Call Chain = __aeabi_memmove
 </UL>
-<BR>[Called By]<UL><LI><a href="#[db]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;hrm_encode
-<LI><a href="#[7c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ble_hrs_rr_interval_add
+<BR>[Called By]<UL><LI><a href="#[7c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ble_hrs_rr_interval_add
+<LI><a href="#[db]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;hrm_encode
 </UL>
 
 <P><STRONG><a name="[16e]"></a>__aeabi_memmove4</STRONG> (Thumb, 0 bytes, Stack size 8 bytes, memmovea.o(.text), UNUSED)
@@ -1219,15 +1219,15 @@ Global Symbols
 </UL>
 
 <P><STRONG><a name="[83]"></a>__aeabi_memclr4</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, memseta.o(.text))
-<BR><BR>[Called By]<UL><LI><a href="#[e8]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;battery_level_char_add
-<LI><a href="#[e4]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;char_add
-<LI><a href="#[df]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;body_sensor_location_char_add
-<LI><a href="#[de]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;heart_rate_measurement_char_add
-<LI><a href="#[5d]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;dm_ble_evt_handler
+<BR><BR>[Called By]<UL><LI><a href="#[5d]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;dm_ble_evt_handler
 <LI><a href="#[8c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;peripheral_conn_params_init
 <LI><a href="#[85]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;peripheral_services_init
 <LI><a href="#[82]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;peripheral_advertising_init
 <LI><a href="#[12a]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;app_gpiote_init
+<LI><a href="#[e8]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;battery_level_char_add
+<LI><a href="#[e4]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;char_add
+<LI><a href="#[df]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;body_sensor_location_char_add
+<LI><a href="#[de]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;heart_rate_measurement_char_add
 </UL>
 
 <P><STRONG><a name="[172]"></a>__aeabi_memclr8</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, memseta.o(.text), UNUSED)
@@ -1288,10 +1288,7 @@ Global Symbols
 <P><STRONG><a name="[4d]"></a>__2printf</STRONG> (Thumb, 0 bytes, Stack size 24 bytes, printf8.o(i.__0printf$8))
 <BR><BR>[Stack]<UL><LI>Max Depth = 24<LI>Call Chain = __2printf
 </UL>
-<BR>[Called By]<UL><LI><a href="#[f4]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;on_descriptor_discovery_rsp
-<LI><a href="#[f2]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;on_characteristic_discovery_rsp
-<LI><a href="#[ed]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;on_srv_disc_completion
-<LI><a href="#[c8]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;cccd_configure
+<BR>[Called By]<UL><LI><a href="#[c8]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;cccd_configure
 <LI><a href="#[34]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;db_discover_evt_handler
 <LI><a href="#[c5]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;tx_buffer_process
 <LI><a href="#[c2]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;cccd_configure
@@ -1346,6 +1343,9 @@ Global Symbols
 <LI><a href="#[5a]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;on_ble_evt
 <LI><a href="#[22]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;device_manager_event_handler
 <LI><a href="#[50]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;scan_start
+<LI><a href="#[f4]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;on_descriptor_discovery_rsp
+<LI><a href="#[f2]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;on_characteristic_discovery_rsp
+<LI><a href="#[ed]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;on_srv_disc_completion
 </UL>
 
 <P><STRONG><a name="[94]"></a>__ARM_common_switch8</STRONG> (Thumb, 28 bytes, Stack size 8 bytes, bsp.o(i.__ARM_common_switch8))
@@ -1454,7 +1454,7 @@ Local Symbols
 </UL>
 <BR>[Address Reference Count : 1]<UL><LI> main.o(.text)
 </UL>
-<P><STRONG><a name="[65]"></a>ble_stack_init</STRONG> (Thumb, 152 bytes, Stack size 24 bytes, main.o(.text))
+<P><STRONG><a name="[65]"></a>ble_stack_init</STRONG> (Thumb, 150 bytes, Stack size 24 bytes, main.o(.text))
 <BR><BR>[Stack]<UL><LI>Max Depth = 64<LI>Call Chain = ble_stack_init &rArr; softdevice_handler_init
 </UL>
 <BR>[Calls]<UL><LI><a href="#[68]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;softdevice_sys_evt_handler_set
@@ -1591,7 +1591,7 @@ Local Symbols
 <BR>[Called By]<UL><LI><a href="#[1f]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;main
 </UL>
 
-<P><STRONG><a name="[81]"></a>peripheral_gap_params_init</STRONG> (Thumb, 154 bytes, Stack size 24 bytes, main.o(.text))
+<P><STRONG><a name="[81]"></a>peripheral_gap_params_init</STRONG> (Thumb, 156 bytes, Stack size 24 bytes, main.o(.text))
 <BR><BR>[Stack]<UL><LI>Max Depth = 64<LI>Call Chain = peripheral_gap_params_init &rArr; app_error_handler &rArr; __2printf
 </UL>
 <BR>[Calls]<UL><LI><a href="#[4c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;app_error_handler
@@ -2150,8 +2150,8 @@ Local Symbols
 <P><STRONG><a name="[db]"></a>hrm_encode</STRONG> (Thumb, 186 bytes, Stack size 40 bytes, ble_hrs.o(.text))
 <BR><BR>[Stack]<UL><LI>Max Depth = 48<LI>Call Chain = hrm_encode &rArr; __aeabi_memmove
 </UL>
-<BR>[Calls]<UL><LI><a href="#[dc]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;uint16_encode
-<LI><a href="#[dd]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__aeabi_memmove
+<BR>[Calls]<UL><LI><a href="#[dd]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__aeabi_memmove
+<LI><a href="#[dc]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;uint16_encode
 </UL>
 <BR>[Called By]<UL><LI><a href="#[e0]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ble_hrs_heart_rate_measurement_send
 <LI><a href="#[de]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;heart_rate_measurement_char_add
@@ -2160,8 +2160,8 @@ Local Symbols
 <P><STRONG><a name="[de]"></a>heart_rate_measurement_char_add</STRONG> (Thumb, 234 bytes, Stack size 96 bytes, ble_hrs.o(.text))
 <BR><BR>[Stack]<UL><LI>Max Depth = 144<LI>Call Chain = heart_rate_measurement_char_add &rArr; hrm_encode &rArr; __aeabi_memmove
 </UL>
-<BR>[Calls]<UL><LI><a href="#[db]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;hrm_encode
-<LI><a href="#[83]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__aeabi_memclr4
+<BR>[Calls]<UL><LI><a href="#[83]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__aeabi_memclr4
+<LI><a href="#[db]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;hrm_encode
 </UL>
 <BR>[Called By]<UL><LI><a href="#[86]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ble_hrs_init
 </UL>
@@ -2189,8 +2189,8 @@ Local Symbols
 <P><STRONG><a name="[e2]"></a>pnp_id_encode</STRONG> (Thumb, 158 bytes, Stack size 24 bytes, ble_dis.o(.text))
 <BR><BR>[Stack]<UL><LI>Max Depth = 64<LI>Call Chain = pnp_id_encode &rArr; app_error_handler &rArr; __2printf
 </UL>
-<BR>[Calls]<UL><LI><a href="#[e3]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;uint16_encode
-<LI><a href="#[4c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;app_error_handler
+<BR>[Calls]<UL><LI><a href="#[4c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;app_error_handler
+<LI><a href="#[e3]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;uint16_encode
 </UL>
 <BR>[Called By]<UL><LI><a href="#[89]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ble_dis_init
 </UL>
@@ -2260,11 +2260,11 @@ Local Symbols
 </UL>
 
 <P><STRONG><a name="[ec]"></a>discovery_complete_evt_trigger</STRONG> (Thumb, 152 bytes, Stack size 24 bytes, ble_db_discovery.o(.text))
-<BR><BR>[Stack]<UL><LI>Max Depth = 32<LI>Call Chain = discovery_complete_evt_trigger &rArr; pending_user_evts_send
+<BR><BR>[Stack]<UL><LI>Max Depth = 32<LI>Call Chain = discovery_complete_evt_trigger &rArr; __aeabi_memcpy
 </UL>
-<BR>[Calls]<UL><LI><a href="#[eb]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;pending_user_evts_send
+<BR>[Calls]<UL><LI><a href="#[54]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__aeabi_memcpy
+<LI><a href="#[eb]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;pending_user_evts_send
 <LI><a href="#[ea]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;registered_handler_get
-<LI><a href="#[54]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__aeabi_memcpy
 </UL>
 <BR>[Called By]<UL><LI><a href="#[f4]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;on_descriptor_discovery_rsp
 <LI><a href="#[f2]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;on_characteristic_discovery_rsp
@@ -2324,13 +2324,13 @@ Local Symbols
 <P><STRONG><a name="[f2]"></a>on_characteristic_discovery_rsp</STRONG> (Thumb, 290 bytes, Stack size 56 bytes, ble_db_discovery.o(.text))
 <BR><BR>[Stack]<UL><LI>Max Depth = 112<LI>Call Chain = on_characteristic_discovery_rsp &rArr; descriptors_discover &rArr; is_desc_discovery_reqd
 </UL>
-<BR>[Calls]<UL><LI><a href="#[ee]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;descriptors_discover
+<BR>[Calls]<UL><LI><a href="#[54]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__aeabi_memcpy
+<LI><a href="#[ee]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;descriptors_discover
 <LI><a href="#[f1]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;characteristics_discover
 <LI><a href="#[f3]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;is_char_discovery_reqd
 <LI><a href="#[ed]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;on_srv_disc_completion
 <LI><a href="#[ec]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;discovery_complete_evt_trigger
 <LI><a href="#[e9]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;discovery_error_evt_trigger
-<LI><a href="#[54]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__aeabi_memcpy
 <LI><a href="#[4d]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__2printf
 </UL>
 <BR>[Called By]<UL><LI><a href="#[5e]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ble_db_discovery_on_ble_evt
@@ -2361,8 +2361,8 @@ Local Symbols
 <P><STRONG><a name="[f7]"></a>conn_params_negotiation</STRONG> (Thumb, 126 bytes, Stack size 16 bytes, ble_conn_params.o(.text))
 <BR><BR>[Stack]<UL><LI>Max Depth = 104<LI>Call Chain = conn_params_negotiation &rArr; app_timer_start &rArr; timer_start_op_schedule &rArr; user_op_alloc
 </UL>
-<BR>[Calls]<UL><LI><a href="#[f8]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;is_conn_params_ok
-<LI><a href="#[8f]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;app_timer_start
+<BR>[Calls]<UL><LI><a href="#[8f]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;app_timer_start
+<LI><a href="#[f8]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;is_conn_params_ok
 </UL>
 <BR>[Called By]<UL><LI><a href="#[fc]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;on_conn_params_update
 <LI><a href="#[fb]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;on_write
@@ -2372,8 +2372,8 @@ Local Symbols
 <P><STRONG><a name="[f9]"></a>on_connect</STRONG> (Thumb, 42 bytes, Stack size 8 bytes, ble_conn_params.o(.text))
 <BR><BR>[Stack]<UL><LI>Max Depth = 112<LI>Call Chain = on_connect &rArr; conn_params_negotiation &rArr; app_timer_start &rArr; timer_start_op_schedule &rArr; user_op_alloc
 </UL>
-<BR>[Calls]<UL><LI><a href="#[f7]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;conn_params_negotiation
-<LI><a href="#[54]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__aeabi_memcpy
+<BR>[Calls]<UL><LI><a href="#[54]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__aeabi_memcpy
+<LI><a href="#[f7]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;conn_params_negotiation
 </UL>
 <BR>[Called By]<UL><LI><a href="#[63]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ble_conn_params_on_ble_evt
 </UL>
@@ -2389,8 +2389,8 @@ Local Symbols
 <P><STRONG><a name="[fb]"></a>on_write</STRONG> (Thumb, 84 bytes, Stack size 16 bytes, ble_conn_params.o(.text))
 <BR><BR>[Stack]<UL><LI>Max Depth = 120<LI>Call Chain = on_write &rArr; conn_params_negotiation &rArr; app_timer_start &rArr; timer_start_op_schedule &rArr; user_op_alloc
 </UL>
-<BR>[Calls]<UL><LI><a href="#[f7]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;conn_params_negotiation
-<LI><a href="#[95]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;app_timer_stop
+<BR>[Calls]<UL><LI><a href="#[95]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;app_timer_stop
+<LI><a href="#[f7]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;conn_params_negotiation
 </UL>
 <BR>[Called By]<UL><LI><a href="#[63]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ble_conn_params_on_ble_evt
 </UL>
@@ -2398,8 +2398,8 @@ Local Symbols
 <P><STRONG><a name="[fc]"></a>on_conn_params_update</STRONG> (Thumb, 20 bytes, Stack size 8 bytes, ble_conn_params.o(.text))
 <BR><BR>[Stack]<UL><LI>Max Depth = 112<LI>Call Chain = on_conn_params_update &rArr; conn_params_negotiation &rArr; app_timer_start &rArr; timer_start_op_schedule &rArr; user_op_alloc
 </UL>
-<BR>[Calls]<UL><LI><a href="#[f7]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;conn_params_negotiation
-<LI><a href="#[54]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__aeabi_memcpy
+<BR>[Calls]<UL><LI><a href="#[54]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__aeabi_memcpy
+<LI><a href="#[f7]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;conn_params_negotiation
 </UL>
 <BR>[Called By]<UL><LI><a href="#[63]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ble_conn_params_on_ble_evt
 </UL>
